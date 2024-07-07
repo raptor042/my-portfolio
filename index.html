@@ -1,1624 +1,600 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Khalid Oyeneye</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Overpass&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sniglet:wght@800&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  </head>
-  <body>
-    <header id="mobile-header">
-      <a class="home" href="index.html"
-        ><div class="logo" id="star"></div>
-        <div id="khal">K H A L I D</div></a
-      >
-      <div class="dropdown">
-        <div onclick="myFunction()" class="dropbtn"></div>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="#about"><span class="teal">01.</span> About me</a>
-          <a href="#works"><span class="teal">02.</span> Works</a>
-          <a href="#footer"><span class="teal">03.</span> Contact</a>
-          <a href="Resume.pdf"><span class="teal">04.</span> Resume</a>
+
+<head>
+  <title>Chukwudi Emmauel</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sniglet:wght@800&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+  <header id="mobile-header">
+    <a class="home" href="index.html">
+      <div class="logo" id="star"></div>
+      <div id="khal">C H U K S</div>
+    </a>
+    <div class="dropdown">
+      <div onclick="myFunction()" class="dropbtn"></div>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#about"><span class="teal">01.</span> About me</a>
+        <a href="#works"><span class="teal">02.</span> Works</a>
+        <a href="#footer"><span class="teal">03.</span> Contact</a>
+        <a  href="Resume.pdf"><span class="teal">04.</span> Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <header id="desktop-header">
+    <a href="index.html">
+      <div class="home">
+        <div class="logo" id="star"></div>
+        <div class="khal">C H U K S</div>
+        <div id="khal">C H U K S</div>
+      </div>
+    </a>
+    <ul class="nav-list">
+      <li>
+        <a href="#about"><span class="teal">01.</span> About me</a>
+      </li>
+      <li>
+        <a href="#works"><span class="teal">02.</span> Works</a>
+      </li>
+      <li>
+        <a href="#footer"><span class="teal">03.</span> Contact</a>
+      </li>
+      <li style="padding-right: 0">
+        <a target="_blank" href="Resume.pdf"><span class="teal">04.</span> Resume</a>
+      </li>
+    </ul>
+  </header>
+  <main>
+    <section id="first">
+      <div class="first--tray">
+        <div id="hello" class="hello hide">HELLO</div>
+        <div id="i-am">
+          <span class="hide" id="i-am1">I</span>
+          <span class="hide" id="i-am2">a</span><span class="hide" id="i-am3">m</span><span class="hide"
+            id="i-am4">.</span><span class="hide" id="i-am5">.</span>
+        </div>
+        <p>
+          <!--<span class="teal">Hi, my name is</span><br><br><br>-->
+          <span id="khalid-pop" class="khalid hide">Chukwudi..</span><br />
+          <span id="dev-pop" class="web-dev hide">Data Analyst</span><br />
+          <span id="intro-text" class="web-dev2 hide">Building data solutions for businesses.</span>
+        </p>
+        <br />
+        <a href="#footer" class="hide" id="contact-btn"><button>Contact me!</button></a>
+        <a class="mob-resume" target="_blank" href="Resume.pdf"><button id="resume-btn" class="button hide">View resume</button></a>
+        <div id="scroll" class="mob-scroll hide">
+          <p>Scroll down</p>
         </div>
       </div>
-    </header>
-
-    <header id="desktop-header">
-      <a href="index.html">
-        <div class="home">
-          <div class="logo" id="star"></div>
-          <div class="khal">K H A L I D</div>
-          <div id="khal">K H A L I D</div>
+      <div class="baloon--cont">
+        <div class="baloon1">
+          <img src="./images/icons8-baloon-orange.png" />
         </div>
-      </a>
-      <ul class="nav-list">
-        <li>
-          <a href="#about"><span class="teal">01.</span> About me</a>
-        </li>
-        <li>
-          <a href="#works"><span class="teal">02.</span> Works</a>
-        </li>
-        <li>
-          <a href="#footer"><span class="teal">03.</span> Contact</a>
-        </li>
-        <li style="padding-right: 0">
-          <a href="Resume.pdf"><span class="teal">04.</span> Resume</a>
-        </li>
-      </ul>
-    </header>
-    <main>
-      <section id="first">
-        <div class="first--tray">
-          <div id="hello" class="hello hide">HELLO</div>
-          <div id="i-am">
-            <span class="hide" id="i-am1">I</span>
-            <span class="hide" id="i-am2">a</span
-            ><span class="hide" id="i-am3">m</span
-            ><span class="hide" id="i-am4">.</span
-            ><span class="hide" id="i-am5">.</span>
-          </div>
-          <p>
-            <!--<span class="teal">Hi, my name is</span><br><br><br>-->
-            <span id="khalid-pop" class="khalid hide">Khalid..</span><br />
-            <span id="dev-pop" class="web-dev hide">Software Engineer</span
-            ><br />
-            <span id="intro-text" class="web-dev2 hide"
-              >Building software that offers solutions.</span
-            >
-          </p>
-          <br />
-          <a href="#footer" class="hide" id="contact-btn"
-            ><button>Contact me!</button></a
-          >
-          <a class="mob-resume" href="Resume.pdf"
-            ><button id="resume-btn" class="button hide">View resume</button></a
-          >
-          <div id="scroll" class="mob-scroll hide">
-            <p>Scroll down</p>
-          </div>
+        <div class="baloon2">
+          <img src="./images/icons8-baloon-orange.png" />
         </div>
-        <div class="baloon--cont">
-          <div class="baloon1">
-            <img src="./images/icons8-baloon-orange.png" />
-          </div>
-          <div class="baloon2">
-            <img src="./images/icons8-baloon-orange.png" />
-          </div>
-          <div class="baloon3">
-            <img src="./images/icons8-baloon-orange.png" />
-          </div>
-          <div class="baloon4">
-            <img src="./images/icons8-baloon-orange.png" />
-          </div>
-          <div class="baloon5">
-            <img src="./images/icons8-baloon-orange.png" />
-          </div>
-          <div class="baloon6">
-            <img src="./images/icons8-baloon-orange.png" />
-          </div>
-          <div class="baloon7">
-            <img src="./images/icons8-baloon-orange.png" />
-          </div>
-          <div class="baloon8">
-            <img src="./images/icons8-baloon-orange.png" />
-          </div>
-          <div class="baloon9">
-            <img src="./images/icons8-baloon-orange.png" />
-          </div>
-          <div class="baloon10">
-            <img src="./images/icons8-baloon-orange.png" />
-          </div>
+        <div class="baloon3">
+          <img src="./images/icons8-baloon-orange.png" />
         </div>
-      </section>
-
-      <section id="vert">
-        <a href="https://github.com/khalteck"
-          ><img
-            src="https://img.icons8.com/ios/344/ffffff/github--v1.png"
-            class="social-img" /></a
-        ><br /><br />
-        <a href="https://twitter.com/khalteck"
-          ><img
-            src="https://img.icons8.com/ios/344/ffffff/twitter--v1.png"
-            class="social-img" /></a
-        ><br /><br />
-        <a href="https://instagram.com/khalteck"
-          ><img
-            src="https://img.icons8.com/ios/344/ffffff/instagram-new--v1.png"
-            class="social-img" /></a
-        ><br /><br />
-        <a href="https://www.linkedin.com/in/khalid-oyeneye/"
-          ><img
-            src="https://img.icons8.com/ios/344/ffffff/linkedin.png"
-            class="social-img" /></a
-        ><br /><br />
-        <a href="https://wa.me/+2348107327238"
-          ><img
-            src="https://img.icons8.com/material-outlined/344/ffffff/whatsapp--v1.png"
-            class="social-img" /></a
-        ><br /><br />
-        <div></div>
-      </section>
-
-      <!-- <div id="float-links">
-        <a href="https://github.com/khalteck" target="_blank"
-          ><img
-            src="https://img.icons8.com/fluency/344/ffffff/github.png"
-            class="social-img"
-        /></a>
-        <a href="https://twitter.com/khalteck" target="_blank"
-          ><img
-            src="https://img.icons8.com/ios/344/ffffff/twitter--v1.png"
-            class="social-img"
-        /></a>
-        <a href="https://instagram.com/khalteck" target="_blank"
-          ><img
-            src="https://img.icons8.com/ios/344/ffffff/instagram-new--v1.png"
-            class="social-img"
-        /></a>
-        <a href="https://www.linkedin.com/in/khalid-oyeneye/" target="_blank"
-          ><img
-            src="https://img.icons8.com/ios/344/ffffff/linkedin.png"
-            class="social-img"
-        /></a>
-        <a href="https://wa.me/+2348107327238" target="_blank"
-          ><img
-            src="https://img.icons8.com/material-outlined/344/ffffff/whatsapp--v1.png"
-            class="social-img"
-        /></a>
-      </div> -->
-
-      <!--<section id="moving-vert">
-                <div></div>
-            </section>-->
-
-      <section id="about">
-        <div class="heading">
-          <h1><span class="teal">01.</span> About me</h1>
-          <div class="horizon-line"></div>
+        <div class="baloon4">
+          <img src="./images/icons8-baloon-orange.png" />
         </div>
-        <div id="about-flex">
-          <p class="word half1">
-            A Front End Developer. I build web apps using the best & latest
-            front end frameworks/libraries which gives dynamic user
-            experience.<br />
-            I do my best to stay on top of changes in the state of the art so i
-            can meet challenges with tools well suited to the job at hand. <br />
-            I currently work remotely at
-            <a href="https://www.atopwebtech.com" target="_blank" class="afis-link"
-              >Atop Web Technologies</a
-            >
+        <div class="baloon5">
+          <img src="./images/icons8-baloon-orange.png" />
+        </div>
+        <div class="baloon6">
+          <img src="./images/icons8-baloon-orange.png" />
+        </div>
+        <div class="baloon7">
+          <img src="./images/icons8-baloon-orange.png" />
+        </div>
+        <div class="baloon8">
+          <img src="./images/icons8-baloon-orange.png" />
+        </div>
+        <div class="baloon9">
+          <img src="./images/icons8-baloon-orange.png" />
+        </div>
+        <div class="baloon10">
+          <img src="./images/icons8-baloon-orange.png" />
+        </div>
+      </div>
+    </section>
+
+    <section id="vert">
+      <a href="mailto:chukwudin64@gmail.com" target="_blank"><img
+        src="https://img.icons8.com/?size=100&id=rUgzXdXFnhmg&format=png&color=ffffff" class="social-img" /></a><br /><br />
+      <a href="https://www.linkedin.com/in/nwoye-chukwudi/" target="_blank"><img
+        src="https://img.icons8.com/ios/344/ffffff/linkedin.png" class="social-img" /></a><br /><br />
+      <a href="https://wa.me/+2348107327238" target="_blank"><img
+        src="https://img.icons8.com/material-outlined/344/ffffff/whatsapp--v1.png" class="social-img" /></a>
+      <div></div>
+    </section>
+
+    <section id="about">
+      <div class="heading">
+        <h1><span class="teal">01.</span> About me</h1>
+        <div class="horizon-line"></div>
+      </div>
+      <div id="about-flex">
+        <p class="word half1">
+          A Data Analyst. I build data-driven solutions using the latest
+          data analytics frameworks which gives improved insights
+          and optimize business performance.<br />
+          Experienced Data Analyst with 2 years of proven expertise in data interpretation and analysis. Proficient in
+          statistical analysis, data visualization, and trend forecasting. Improving operational efficiency by 20%
+          through data-driven insights. <br />
+          I currently work remotely at
+          <a href="#" class="afis-link">Quantum Analytics NG</a>
           . I am therefore open to new opportunities.<br /><br /><br />
-            <a href="Resume.pdf"><button>View my resume</button></a>
-          </p>
-          <div class="half2" data-aos="flip-right" data-aos-duration="1200">
-            <div class="stack-hold">
-              HTML
-              <img
-                class="stack"
-                src="https://img.icons8.com/color/344/html-5--v1.png"
-              />
-            </div>
-            <div class="stack-hold">
-              CSS
-              <img
-                class="stack"
-                src="https://img.icons8.com/color/344/css3.png"
-              />
-            </div>
-            <div class="stack-hold2">
-              Tailwind
-              <img class="stack" src="./images/pngaaa.com-3920388.png" />
-            </div>
-            <div class="stack-hold2">
-              Git
-              <img
-                class="stack"
-                src="https://img.icons8.com/color/344/git.png"
-              />
-            </div>
-            <div class="stack-hold">
-              JavaScript
-              <img
-                class="stack"
-                src="https://img.icons8.com/color/344/javascript--v1.png"
-              />
-            </div>
-            <div class="stack-hold">
-              TypeScript
-              <img
-                class="stack"
-                src="./images/icons8-typescript-48.png"
-              />
-            </div>
-           
-            <div class="stack-hold2">
-              React
-              <img
-                class="stack"
-                src="https://img.icons8.com/office/344/react.png"
-              />
-            </div>
-            <div class="stack-hold2">
-              Redux
-              <img
-                class="stack"
-                src="./images/icons8-redux-48.png"
-              />
-            </div>
-            <div class="stack-hold2">
-              Firebase
-              <img
-                class="stack"
-                src="https://img.icons8.com/color/512/firebase.png"
-              />
-            </div>
-            
-
-          </div>
-        </div>
-      </section>
-      <section id="works">
-        <div class="heading2">
-          <div class="horizon-line2"></div>
-          <h1><span class="teal">02.</span> Works</h1>
-          <div class="horizon-line2"></div>
-        </div>
-        <div class="heading3-mob">
-          <h1><span class="teal">02.</span> Works</h1>
-          <div class="horizon-line"></div>
-        </div>
-        <p class="word">
-          A small gallery of some webapps i've built.
-          <a href="https://github.com/khalteck" style="color: #fb923c"
-            >There's more</a
-          >
-          from where these came.<br />
-          Click each project to view.
+          <a target="_blank" href="Resume.pdf"><button>View my resume</button></a>
         </p>
-        <br /><br /><br />
-        <div class="cont">
-
-          <div class="box-hold">
-            <div class="box box9">
-              <div class="box-name">
-                <div class="hold">
-                  Shoply
-                  <div class="stack-strip">
-                    <img src="https://img.icons8.com/office/344/react.png" />
-                    <img src="./images/pngaaa.com-3920388.png" />
-                    <img src="https://img.icons8.com/color/512/firebase.png" />
-                  </div>
-                  <a
-                    target="_blank"
-                    href="https://khalteck-shoply.netlify.app/"
-                    ><button class="view">View</button></a
-                  >
-                </div>
-              </div>
-            </div>
-            <h2>Shoply</h2>
-            <p class="info">An e-commerce website with user authentication, API consumption, working cart system, etc</p>
-            <img class="label" src="./images/icons8-label-64.png" />
-            <div class="stack-info-hold">
-              <div class="stack-info">
-                <p>React.js</p>
-                <img src="https://img.icons8.com/office/344/react.png" />
-              </div>
-              <div class="stack-info">
-                <p>Tailwind</p>
-                <img src="./images/pngaaa.com-3920388.png" />
-              </div>
-              <div class="stack-info">
-                <p>Firebase</p>
-                <img src="https://img.icons8.com/color/512/firebase.png" />
-              </div>
-              <div class="stack-info">
-                <p>Api</p>
-                <img
-                  src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNlY2YwZjEiPjxwYXRoIGQ9Ik02OS4yODcxMSwxNC4zMzMzM2wtMy41MjczNCwxOC4wODQ2NGMtNS45MzQsMi4yMzYgLTExLjM0NTg0LDUuMzQ2NzggLTE2LjA4MzAxLDkuMjM4MjhsLTE3LjM3MDc3LC01Ljk3Njg5bC0xNi43MjY4OSwyOC45NzQ2MWwxMy44OTk0MSwxMi4wOTM3NWMtMC41NTE4MywzLjM3NTUgLTAuODExODUsNi4zOTk5NSAtMC44MTE4NSw5LjI1MjI4YzAsMi44MzA4MyAwLjI2NzE4LDUuODYyMTEgMC44MTE4NSw5LjI2NjI4bC0xMy44OTk0MSwxMi4wOTM3NWwxNi43MjY4OSwyOC45NjA2MWwxNy4zNTY3NywtNS45NzY4OWM0Ljc1MTUsMy44OTg2NyAxMC4xNzAxNyw3LjAxNjI4IDE2LjA5Nyw5LjI1MjI4bDMuNTI3MzQsMTguMDcwNjRoOS41NDYyMnYtMjUuOTM3MThsLTAuNTMxOSwtMi43Mjk0OWwtNy40NzQ2MSwtMi44Mjc0N2MtNC40NjQ4MywtMS42ODQxNyAtOC41MTgyNSwtNC4wMDUwNSAtMTIuMDY1NzUsLTYuOTE0NzJsLTYuMTg2ODUsLTUuMDgxMDVsLTEzLjc3MzQ0LDQuNzQ1MTFsLTQuODk5MDksLTguNTEwNDJsMTEuMDAxOTUsLTkuNTc0MjJsLTEuMjczNzYsLTcuODUyNTRjLTAuNDIyODMsLTIuNjMwMTcgLTAuNjI5ODgsLTQuOTIwNyAtMC42Mjk4OCwtNi45ODQ3YzAsLTIuMDc4MzMgMC4yMDcwNSwtNC4zNTQ4NyAwLjYyOTg4LC02Ljk3MDdsMS4yNzM3NiwtNy44NjY1NGwtMTEuMDE1OTUsLTkuNTc0MjJsNC45MTMwOSwtOC41MTA0MmwxMy43NTk0NCw0Ljc0NTEybDYuMjAwODUsLTUuMDgxMDVjMy41MzMxNywtMi45MDk2NyA3LjYwNzc1LC01LjIzMDU1IDEyLjA3OTc1LC02LjkxNDcxbDcuNDYwNjEsLTIuODI3NDdsMi43OTk0OCwtMTQuMzMzMzNoOS44MTIxOGwyLjc4NTQ4LDE0LjMzMzMzbDcuNDc0NjEsMi44Mjc0N2M0LjQ2NDgzLDEuNjg0MTcgOC41MzIyNSw0LjAwNTA1IDEyLjA3OTc1LDYuOTE0NzFsNi4xODY4NSw1LjA4MTA1bDEzLjc1OTQ0LC00Ljc0NTEybDQuOTEzMDgsOC41MTA0MmwtMTEuMDAxOTUsOS41NjAyMmwxLjI1OTc2LDcuODY2NTR2MC4wMjc5OWMwLjQyMjgzLDIuNjA4NjcgMC42Mjk4OSw0Ljg3ODM3IDAuNjI5ODksNi45NTY3YzAsMi4wNzgzMyAtMC4yMDcwNSw0LjM1NDg3IC0wLjYyOTg5LDYuOTcwN2wtMS4yNzM3Niw3Ljg2NjUzbDcuNjU2NTcsNi42NjI3NmgyMS41ODM5OWwwLjA4Mzk5LC0wLjE1Mzk3bC0xMy44OTk0MSwtMTIuMDkzNzVjMC41NDQ2NywtMy4zNzU1IDAuODExODUsLTYuMzk5OTUgMC44MTE4NSwtOS4yNTIyOGMwLC0yLjg1MjMzIC0wLjI2MDAxLC01Ljg4MzYxIC0wLjgxMTg1LC05LjI2NjI4bDEzLjg5OTQxLC0xMi4wOTM3NWwtMTYuNzI2ODksLTI4Ljk2MDYxbC0xNy4zNTY3OCw1Ljk3Njg5Yy00Ljc1MTUsLTMuODk4NjcgLTEwLjE3MDE3LC03LjAxNjI4IC0xNi4wOTcsLTkuMjUyMjhsLTMuNTI3MzUsLTE4LjA3MDY0ek04Niw1Ny4zMzMzM2MtMTUuNzQxNzUsMCAtMjguNjY2NjcsMTIuOTI0OTIgLTI4LjY2NjY3LDI4LjY2NjY3YzAsMTUuNzQxNzUgMTIuOTI0OTIsMjguNjY2NjcgMjguNjY2NjcsMjguNjY2NjdjMTUuNzQxNzUsMCAyOC42NjY2NywtMTIuOTI0OTIgMjguNjY2NjcsLTI4LjY2NjY3YzAsLTE1Ljc0MTc1IC0xMi45MjQ5MiwtMjguNjY2NjcgLTI4LjY2NjY3LC0yOC42NjY2N3pNODYsNzEuNjY2NjdjNy45NjU1OSwwIDE0LjMzMzMzLDYuMzY3NzUgMTQuMzMzMzMsMTQuMzMzMzNjMCw3Ljk2NTU5IC02LjM2Nzc1LDE0LjMzMzMzIC0xNC4zMzMzMywxNC4zMzMzM2MtNy45NjU1OSwwIC0xNC4zMzMzMywtNi4zNjc3NSAtMTQuMzMzMzMsLTE0LjMzMzMzYzAsLTcuOTY1NTkgNi4zNjc3NSwtMTQuMzMzMzMgMTQuMzMzMzMsLTE0LjMzMzMzek0xMDIuODEwODcsMTIxLjgzMzMzbC05LjY0NDIsMzUuODMzMzNoNy41NDQ1OWwxLjg0NzY2LC03LjE2NjY3aDkuNzk4MTdsMS44NjE2Niw3LjE2NjY3aDcuNjE0NThsLTkuNzAwMiwtMzUuODMzMzN6TTEyOSwxMjEuODMzMzN2MzUuODMzMzNoNy4xNjY2N3YtMTQuMzMzMzNoMy41ODMzM2M1LjkzNCwwIDEwLjc1LC00LjgxNiAxMC43NSwtMTAuNzVjMCwtNS45MzQgLTQuODE2LC0xMC43NSAtMTAuNzUsLTEwLjc1ek0xNTcuNjY2NjcsMTIxLjgzMzMzdjM1LjgzMzMzaDcuMTY2Njd2LTM1LjgzMzMzek0xMzYuMTY2NjcsMTI5aDMuNTgzMzNjMS45NzgsMCAzLjU4MzMzLDEuNjA1MzMgMy41ODMzMywzLjU4MzMzYzAsMS45NzggLTEuNjA1MzMsMy41ODMzMyAtMy41ODMzMywzLjU4MzMzaC0zLjU4MzMzek0xMDcuNDQ0MDEsMTMxLjUzMzUzbDMuMDY1NDMsMTEuNzk5OGgtNi4xMDI4N3oiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg=="
-                />
-              </div>
-
-              
-            </div>
-            <a href="https://github.com/khalteck/sneakers" target="_blank"><div class="view-code">View code</div></a>
+        <div class="half2" data-aos="flip-right" data-aos-duration="1200">
+          <div class="stack-hold">
+            Power BI
+            <img class="stack" src="https://img.icons8.com/?size=100&id=03aYi0fY0D9X&format=png&color=FB923C" />
           </div>
-         
-
-          <div class="box-hold">
-            <div class="box box3">
-              <div class="box-name">
-                <div class="hold">
-                  Notesapp
-                  <div class="stack-strip">
-                    <img src="https://img.icons8.com/office/344/react.png" />
-                    <img src="./images/pngaaa.com-3920388.png" />
-                    <img src="https://img.icons8.com/color/512/firebase.png" />
-                  </div>
-                  <a
-                    target="_blank"
-                    href="https://khalteck-sticky-note.netlify.app/"
-                    ><button class="view">View</button></a
-                  >
-                </div>
-              </div>
-            </div>
-            <h2>Notes app</h2>
-            <p class="info">
-              A notes app with auth, to manage and organize sticky notes. sign in, create, view, edit & delete notes
-            </p>
-            <img class="label" src="./images/icons8-label-64.png" />
-            <div class="stack-info-hold">
-              <div class="stack-info">
-                <p>React.js</p>
-                <img src="https://img.icons8.com/office/344/react.png" />
-              </div>
-              <div class="stack-info">
-                <p>Tailwind</p>
-                <img src="./images/pngaaa.com-3920388.png" />
-              </div>
-              <div class="stack-info">
-                <p>Firebase</p>
-                <img src="https://img.icons8.com/color/512/firebase.png" />
-              </div>
-            </div>
-            <a href="https://github.com/khalteck/sticky-note-app" target="_blank"
-                ><div class="view-code">View code</div></a
-              >
+          <div class="stack-hold">
+            Microsoft Excel
+            <img class="stack" src="https://img.icons8.com/?size=100&id=11566&format=png&color=FB923C" />
           </div>
-
-          <div class="box-hold">
-            <div class="box box4">
-              <div class="box-name">
-                <div class="hold">
-                  LorenzoTV
-                  <div class="stack-strip">
-                    <img src="https://img.icons8.com/office/344/react.png" />
-                    <img src="./images/pngaaa.com-3920388.png" />
-                  </div>
-                  <a
-                    target="_blank"
-                    href="https://khalteck-lorenzotv.netlify.app/"
-                    ><button class="view">View</button></a
-                  >
-                </div>
-              </div>
-            </div>
-            <h2>LorenzoTV</h2>
-            <p class="info">
-              A movie website. This project shows the power of React for data-driven webapps.
-            </p>
-            <img class="label" src="./images/icons8-label-64.png" />
-            <div class="stack-info-hold">
-              <div class="stack-info">
-                <p>React.js</p>
-                <img src="https://img.icons8.com/office/344/react.png" />
-              </div>
-              <div class="stack-info">
-                <p>Tailwind</p>
-                <img src="./images/pngaaa.com-3920388.png" />
-              </div>
-              <div class="stack-info">
-                <p>Firebase</p>
-                <img src="https://img.icons8.com/color/512/firebase.png" />
-              </div>
-
-            
-            </div>
-            <a href="https://github.com/khalteck/lorenzotv" target="_blank"
-            ><div class="view-code">View code</div></a
-          >
+          <div class="stack-hold2">
+            SPSS
+            <img class="stack" src="https://img.icons8.com/?size=100&id=39908&format=png&color=FB923C" />
           </div>
-
-          <div class="box-hold">
-            <div class="box box7">
-              <div class="box-name">
-                <div class="hold">
-                  Lonacare
-                  <div class="stack-strip">
-                    <img src="https://img.icons8.com/office/344/react.png" />
-                    <img src="./images/pngaaa.com-3920388.png" />
-                    <!-- <img src="https://img.icons8.com/color/512/firebase.png" /> -->
-                  </div>
-                  <a target="_blank" href="https://lonacare.netlify.app/"
-                    ><button class="view">View</button></a
-                  >
-                </div>
-              </div>
-            </div>
-            <h2>Lonacare</h2>
-            <p class="info">
-              Lona care is a semi-independent living services provider
-            </p>
-            <img class="label" src="./images/icons8-label-64.png" />
-            <div class="stack-info-hold">
-              <div class="stack-info">
-                <p>React.js</p>
-                <img src="https://img.icons8.com/office/344/react.png" />
-              </div>
-              <div class="stack-info">
-                <p>Tailwind</p>
-                <img src="./images/pngaaa.com-3920388.png" />
-              </div>
-              <!-- <div class="stack-info">
-                <p>Firebase</p>
-                <img src="https://img.icons8.com/color/512/firebase.png" />
-              </div> -->
-              <!-- <div class="stack-info">
-                <p>Api</p>
-                <img
-                  src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNlY2YwZjEiPjxwYXRoIGQ9Ik02OS4yODcxMSwxNC4zMzMzM2wtMy41MjczNCwxOC4wODQ2NGMtNS45MzQsMi4yMzYgLTExLjM0NTg0LDUuMzQ2NzggLTE2LjA4MzAxLDkuMjM4MjhsLTE3LjM3MDc3LC01Ljk3Njg5bC0xNi43MjY4OSwyOC45NzQ2MWwxMy44OTk0MSwxMi4wOTM3NWMtMC41NTE4MywzLjM3NTUgLTAuODExODUsNi4zOTk5NSAtMC44MTE4NSw5LjI1MjI4YzAsMi44MzA4MyAwLjI2NzE4LDUuODYyMTEgMC44MTE4NSw5LjI2NjI4bC0xMy44OTk0MSwxMi4wOTM3NWwxNi43MjY4OSwyOC45NjA2MWwxNy4zNTY3NywtNS45NzY4OWM0Ljc1MTUsMy44OTg2NyAxMC4xNzAxNyw3LjAxNjI4IDE2LjA5Nyw5LjI1MjI4bDMuNTI3MzQsMTguMDcwNjRoOS41NDYyMnYtMjUuOTM3MThsLTAuNTMxOSwtMi43Mjk0OWwtNy40NzQ2MSwtMi44Mjc0N2MtNC40NjQ4MywtMS42ODQxNyAtOC41MTgyNSwtNC4wMDUwNSAtMTIuMDY1NzUsLTYuOTE0NzJsLTYuMTg2ODUsLTUuMDgxMDVsLTEzLjc3MzQ0LDQuNzQ1MTFsLTQuODk5MDksLTguNTEwNDJsMTEuMDAxOTUsLTkuNTc0MjJsLTEuMjczNzYsLTcuODUyNTRjLTAuNDIyODMsLTIuNjMwMTcgLTAuNjI5ODgsLTQuOTIwNyAtMC42Mjk4OCwtNi45ODQ3YzAsLTIuMDc4MzMgMC4yMDcwNSwtNC4zNTQ4NyAwLjYyOTg4LC02Ljk3MDdsMS4yNzM3NiwtNy44NjY1NGwtMTEuMDE1OTUsLTkuNTc0MjJsNC45MTMwOSwtOC41MTA0MmwxMy43NTk0NCw0Ljc0NTEybDYuMjAwODUsLTUuMDgxMDVjMy41MzMxNywtMi45MDk2NyA3LjYwNzc1LC01LjIzMDU1IDEyLjA3OTc1LC02LjkxNDcxbDcuNDYwNjEsLTIuODI3NDdsMi43OTk0OCwtMTQuMzMzMzNoOS44MTIxOGwyLjc4NTQ4LDE0LjMzMzMzbDcuNDc0NjEsMi44Mjc0N2M0LjQ2NDgzLDEuNjg0MTcgOC41MzIyNSw0LjAwNTA1IDEyLjA3OTc1LDYuOTE0NzFsNi4xODY4NSw1LjA4MTA1bDEzLjc1OTQ0LC00Ljc0NTEybDQuOTEzMDgsOC41MTA0MmwtMTEuMDAxOTUsOS41NjAyMmwxLjI1OTc2LDcuODY2NTR2MC4wMjc5OWMwLjQyMjgzLDIuNjA4NjcgMC42Mjk4OSw0Ljg3ODM3IDAuNjI5ODksNi45NTY3YzAsMi4wNzgzMyAtMC4yMDcwNSw0LjM1NDg3IC0wLjYyOTg5LDYuOTcwN2wtMS4yNzM3Niw3Ljg2NjUzbDcuNjU2NTcsNi42NjI3NmgyMS41ODM5OWwwLjA4Mzk5LC0wLjE1Mzk3bC0xMy44OTk0MSwtMTIuMDkzNzVjMC41NDQ2NywtMy4zNzU1IDAuODExODUsLTYuMzk5OTUgMC44MTE4NSwtOS4yNTIyOGMwLC0yLjg1MjMzIC0wLjI2MDAxLC01Ljg4MzYxIC0wLjgxMTg1LC05LjI2NjI4bDEzLjg5OTQxLC0xMi4wOTM3NWwtMTYuNzI2ODksLTI4Ljk2MDYxbC0xNy4zNTY3OCw1Ljk3Njg5Yy00Ljc1MTUsLTMuODk4NjcgLTEwLjE3MDE3LC03LjAxNjI4IC0xNi4wOTcsLTkuMjUyMjhsLTMuNTI3MzUsLTE4LjA3MDY0ek04Niw1Ny4zMzMzM2MtMTUuNzQxNzUsMCAtMjguNjY2NjcsMTIuOTI0OTIgLTI4LjY2NjY3LDI4LjY2NjY3YzAsMTUuNzQxNzUgMTIuOTI0OTIsMjguNjY2NjcgMjguNjY2NjcsMjguNjY2NjdjMTUuNzQxNzUsMCAyOC42NjY2NywtMTIuOTI0OTIgMjguNjY2NjcsLTI4LjY2NjY3YzAsLTE1Ljc0MTc1IC0xMi45MjQ5MiwtMjguNjY2NjcgLTI4LjY2NjY3LC0yOC42NjY2N3pNODYsNzEuNjY2NjdjNy45NjU1OSwwIDE0LjMzMzMzLDYuMzY3NzUgMTQuMzMzMzMsMTQuMzMzMzNjMCw3Ljk2NTU5IC02LjM2Nzc1LDE0LjMzMzMzIC0xNC4zMzMzMywxNC4zMzMzM2MtNy45NjU1OSwwIC0xNC4zMzMzMywtNi4zNjc3NSAtMTQuMzMzMzMsLTE0LjMzMzMzYzAsLTcuOTY1NTkgNi4zNjc3NSwtMTQuMzMzMzMgMTQuMzMzMzMsLTE0LjMzMzMzek0xMDIuODEwODcsMTIxLjgzMzMzbC05LjY0NDIsMzUuODMzMzNoNy41NDQ1OWwxLjg0NzY2LC03LjE2NjY3aDkuNzk4MTdsMS44NjE2Niw3LjE2NjY3aDcuNjE0NThsLTkuNzAwMiwtMzUuODMzMzN6TTEyOSwxMjEuODMzMzN2MzUuODMzMzNoNy4xNjY2N3YtMTQuMzMzMzNoMy41ODMzM2M1LjkzNCwwIDEwLjc1LC00LjgxNiAxMC43NSwtMTAuNzVjMCwtNS45MzQgLTQuODE2LC0xMC43NSAtMTAuNzUsLTEwLjc1ek0xNTcuNjY2NjcsMTIxLjgzMzMzdjM1LjgzMzMzaDcuMTY2Njd2LTM1LjgzMzMzek0xMzYuMTY2NjcsMTI5aDMuNTgzMzNjMS45NzgsMCAzLjU4MzMzLDEuNjA1MzMgMy41ODMzMywzLjU4MzMzYzAsMS45NzggLTEuNjA1MzMsMy41ODMzMyAtMy41ODMzMywzLjU4MzMzaC0zLjU4MzMzek0xMDcuNDQ0MDEsMTMxLjUzMzUzbDMuMDY1NDMsMTEuNzk5OGgtNi4xMDI4N3oiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg=="
-                />
-              </div> -->
-
-              <!-- <a href="#"><div class="view-code">View code</div></a> -->
-            </div>
+          <div class="stack-hold">
+            Tableau
+            <img class="stack" src="https://img.icons8.com/?size=100&id=BQJc3mm8NGYs&format=png&color=FB923C" />
           </div>
-
-         
-
-          <div class="box-hold">
-            <div class="box box2">
-              <div class="box-name">
-                <div class="hold">
-                  Iroko events Intl
-                  <div class="stack-strip">
-                    <img
-                      src="https://img.icons8.com/color/344/html-5--v1.png"
-                    />
-                    <img src="https://img.icons8.com/color/344/css3.png" />
-                    <img
-                      src="https://img.icons8.com/color/344/javascript--v1.png"
-                    />
-                  </div>
-                  <a target="_blank" href="https://irokoevents.ng/"
-                    ><button class="view">View</button></a
-                  >
-                </div>
-              </div>
-            </div>
-            <h2>Irokoevents.ng</h2>
-            <p class="info">
-              Iroko events International, a celeberation of african music and
-              culture
-            </p>
-            <img class="label" src="./images/icons8-label-64.png" />
-            <div class="stack-info-hold">
-              <div class="stack-info">
-                <p>HTML</p>
-                <img src="https://img.icons8.com/color/344/html-5--v1.png" />
-              </div>
-              <div class="stack-info">
-                <p>CSS</p>
-                <img src="https://img.icons8.com/color/344/css3.png" />
-              </div>
-              <div class="stack-info">
-                <p>JavaScript</p>
-                <img
-                  src="https://img.icons8.com/color/344/javascript--v1.png"
-                />
-              </div>
-
-              <!-- <a href="https://github.com/khalteck/sticky-note-app"
-                ><div class="view-code">View code</div></a
-              > -->
-            </div>
+          <div class="stack-hold">
+            Google Analytics
+            <img class="stack" src="https://img.icons8.com/?size=100&id=58779&format=png&color=FB923C" />
           </div>
-
-          <div class="box-hold">
-            <div class="box box10">
-              <div class="box-name">
-                <div class="hold">
-                  Afrogrids
-                  <div class="stack-strip">
-                    <img src="https://img.icons8.com/office/344/react.png" />
-                    <img src="./images/pngaaa.com-3920388.png" />
-                    <img src="https://img.icons8.com/color/512/firebase.png" />
-                  </div>
-                  <a target="_blank" href="https://afrogrids.com"
-                    ><button class="view">View</button></a
-                  >
-                </div>
-              </div>
-            </div>
-            <h2>Afrogrids</h2>
-            <p class="info">
-              Digital colonialism, internet infrastructure (undersea cables) and
-              alternate futures through storytelling.
-            </p>
-            <img class="label" src="./images/icons8-label-64.png" />
-            <div class="stack-info-hold">
-              <div class="stack-info">
-                <p>React.js</p>
-                <img src="https://img.icons8.com/office/344/react.png" />
-              </div>
-              <div class="stack-info">
-                <p>Tailwind</p>
-                <img src="./images/pngaaa.com-3920388.png" />
-              </div>
-              <div class="stack-info">
-                <p>Firebase</p>
-                <img src="https://img.icons8.com/color/512/firebase.png" />
-              </div>
-              <div class="stack-info">
-                <p>Api</p>
-                <img
-                  src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNlY2YwZjEiPjxwYXRoIGQ9Ik02OS4yODcxMSwxNC4zMzMzM2wtMy41MjczNCwxOC4wODQ2NGMtNS45MzQsMi4yMzYgLTExLjM0NTg0LDUuMzQ2NzggLTE2LjA4MzAxLDkuMjM4MjhsLTE3LjM3MDc3LC01Ljk3Njg5bC0xNi43MjY4OSwyOC45NzQ2MWwxMy44OTk0MSwxMi4wOTM3NWMtMC41NTE4MywzLjM3NTUgLTAuODExODUsNi4zOTk5NSAtMC44MTE4NSw5LjI1MjI4YzAsMi44MzA4MyAwLjI2NzE4LDUuODYyMTEgMC44MTE4NSw5LjI2NjI4bC0xMy44OTk0MSwxMi4wOTM3NWwxNi43MjY4OSwyOC45NjA2MWwxNy4zNTY3NywtNS45NzY4OWM0Ljc1MTUsMy44OTg2NyAxMC4xNzAxNyw3LjAxNjI4IDE2LjA5Nyw5LjI1MjI4bDMuNTI3MzQsMTguMDcwNjRoOS41NDYyMnYtMjUuOTM3MThsLTAuNTMxOSwtMi43Mjk0OWwtNy40NzQ2MSwtMi44Mjc0N2MtNC40NjQ4MywtMS42ODQxNyAtOC41MTgyNSwtNC4wMDUwNSAtMTIuMDY1NzUsLTYuOTE0NzJsLTYuMTg2ODUsLTUuMDgxMDVsLTEzLjc3MzQ0LDQuNzQ1MTFsLTQuODk5MDksLTguNTEwNDJsMTEuMDAxOTUsLTkuNTc0MjJsLTEuMjczNzYsLTcuODUyNTRjLTAuNDIyODMsLTIuNjMwMTcgLTAuNjI5ODgsLTQuOTIwNyAtMC42Mjk4OCwtNi45ODQ3YzAsLTIuMDc4MzMgMC4yMDcwNSwtNC4zNTQ4NyAwLjYyOTg4LC02Ljk3MDdsMS4yNzM3NiwtNy44NjY1NGwtMTEuMDE1OTUsLTkuNTc0MjJsNC45MTMwOSwtOC41MTA0MmwxMy43NTk0NCw0Ljc0NTEybDYuMjAwODUsLTUuMDgxMDVjMy41MzMxNywtMi45MDk2NyA3LjYwNzc1LC01LjIzMDU1IDEyLjA3OTc1LC02LjkxNDcxbDcuNDYwNjEsLTIuODI3NDdsMi43OTk0OCwtMTQuMzMzMzNoOS44MTIxOGwyLjc4NTQ4LDE0LjMzMzMzbDcuNDc0NjEsMi44Mjc0N2M0LjQ2NDgzLDEuNjg0MTcgOC41MzIyNSw0LjAwNTA1IDEyLjA3OTc1LDYuOTE0NzFsNi4xODY4NSw1LjA4MTA1bDEzLjc1OTQ0LC00Ljc0NTEybDQuOTEzMDgsOC41MTA0MmwtMTEuMDAxOTUsOS41NjAyMmwxLjI1OTc2LDcuODY2NTR2MC4wMjc5OWMwLjQyMjgzLDIuNjA4NjcgMC42Mjk4OSw0Ljg3ODM3IDAuNjI5ODksNi45NTY3YzAsMi4wNzgzMyAtMC4yMDcwNSw0LjM1NDg3IC0wLjYyOTg5LDYuOTcwN2wtMS4yNzM3Niw3Ljg2NjUzbDcuNjU2NTcsNi42NjI3NmgyMS41ODM5OWwwLjA4Mzk5LC0wLjE1Mzk3bC0xMy44OTk0MSwtMTIuMDkzNzVjMC41NDQ2NywtMy4zNzU1IDAuODExODUsLTYuMzk5OTUgMC44MTE4NSwtOS4yNTIyOGMwLC0yLjg1MjMzIC0wLjI2MDAxLC01Ljg4MzYxIC0wLjgxMTg1LC05LjI2NjI4bDEzLjg5OTQxLC0xMi4wOTM3NWwtMTYuNzI2ODksLTI4Ljk2MDYxbC0xNy4zNTY3OCw1Ljk3Njg5Yy00Ljc1MTUsLTMuODk4NjcgLTEwLjE3MDE3LC03LjAxNjI4IC0xNi4wOTcsLTkuMjUyMjhsLTMuNTI3MzUsLTE4LjA3MDY0ek04Niw1Ny4zMzMzM2MtMTUuNzQxNzUsMCAtMjguNjY2NjcsMTIuOTI0OTIgLTI4LjY2NjY3LDI4LjY2NjY3YzAsMTUuNzQxNzUgMTIuOTI0OTIsMjguNjY2NjcgMjguNjY2NjcsMjguNjY2NjdjMTUuNzQxNzUsMCAyOC42NjY2NywtMTIuOTI0OTIgMjguNjY2NjcsLTI4LjY2NjY3YzAsLTE1Ljc0MTc1IC0xMi45MjQ5MiwtMjguNjY2NjcgLTI4LjY2NjY3LC0yOC42NjY2N3pNODYsNzEuNjY2NjdjNy45NjU1OSwwIDE0LjMzMzMzLDYuMzY3NzUgMTQuMzMzMzMsMTQuMzMzMzNjMCw3Ljk2NTU5IC02LjM2Nzc1LDE0LjMzMzMzIC0xNC4zMzMzMywxNC4zMzMzM2MtNy45NjU1OSwwIC0xNC4zMzMzMywtNi4zNjc3NSAtMTQuMzMzMzMsLTE0LjMzMzMzYzAsLTcuOTY1NTkgNi4zNjc3NSwtMTQuMzMzMzMgMTQuMzMzMzMsLTE0LjMzMzMzek0xMDIuODEwODcsMTIxLjgzMzMzbC05LjY0NDIsMzUuODMzMzNoNy41NDQ1OWwxLjg0NzY2LC03LjE2NjY3aDkuNzk4MTdsMS44NjE2Niw3LjE2NjY3aDcuNjE0NThsLTkuNzAwMiwtMzUuODMzMzN6TTEyOSwxMjEuODMzMzN2MzUuODMzMzNoNy4xNjY2N3YtMTQuMzMzMzNoMy41ODMzM2M1LjkzNCwwIDEwLjc1LC00LjgxNiAxMC43NSwtMTAuNzVjMCwtNS45MzQgLTQuODE2LC0xMC43NSAtMTAuNzUsLTEwLjc1ek0xNTcuNjY2NjcsMTIxLjgzMzMzdjM1LjgzMzMzaDcuMTY2Njd2LTM1LjgzMzMzek0xMzYuMTY2NjcsMTI5aDMuNTgzMzNjMS45NzgsMCAzLjU4MzMzLDEuNjA1MzMgMy41ODMzMywzLjU4MzMzYzAsMS45NzggLTEuNjA1MzMsMy41ODMzMyAtMy41ODMzMywzLjU4MzMzaC0zLjU4MzMzek0xMDcuNDQ0MDEsMTMxLjUzMzUzbDMuMDY1NDMsMTEuNzk5OGgtNi4xMDI4N3oiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg=="
-                />
-              </div>
-
-              <!-- <a href="#"><div class="view-code">View code</div></a> -->
-            </div>
+          <div class="stack-hold">
+            PostgreSQL
+            <img class="stack" src="https://img.icons8.com/?size=100&id=25010&format=png&color=FB923C" />
           </div>
+        </div>
+      </div>
+    </section>
+    <section id="works">
+      <div class="heading2">
+        <div class="horizon-line2"></div>
+        <h1><span class="teal">02.</span> Works</h1>
+        <div class="horizon-line2"></div>
+      </div>
+      <div class="heading3-mob">
+        <h1><span class="teal">02.</span> Works</h1>
+        <div class="horizon-line"></div>
+      </div>
+      <p class="word">
+        A small gallery of some projects i've built.
+        <a target="_blank" href="https://drive.google.com/drive/folders/18A_AKeSECaZk_cbepAQ0nU_C2gHd02XT" style="color: #fb923c">There's more</a>
+        from where these came.<br />
+        Click each project to view.
+      </p>
+      <br /><br /><br />
+      <div class="cont">
 
-         
-
-          <!-- <div class="box-hold">
-            <div class="box box1">
-              <div class="box-name">
-                <div class="hold">
-                  Todo app<br />
-                  <div class="stack-strip">
-                    <img src="https://img.icons8.com/office/344/react.png" />
-                    <img src="https://img.icons8.com/color/344/css3.png" />
-                    <img
-                      src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik03OC44MzMzMywxNC42OTcyN2MtMzYuMjEzMTcsMy41OTc2NyAtNjQuNSwzNC4xNDM1NyAtNjQuNSw3MS4zMDI3M2MwLDM5LjU4MTUgMzIuMDg1MTcsNzEuNjY2NjcgNzEuNjY2NjcsNzEuNjY2NjdjMjcuMjU0ODMsMCA1MC45NTM0MywtMTUuMjIyIDYzLjA3MjI2LC0zNy42MjVsLTIwLjA0NDI3LC04LjM0MjQ0Yy04Ljc1NzY3LDE0LjY0MTQ5IC0yNC43MjQzMywyNC40Njc0NCAtNDMuMDI3OTksMjQuNDY3NDRjLTI3LjcwNjMzLDAgLTUwLjE2NjY3LC0yMi40NjAzMyAtNTAuMTY2NjcsLTUwLjE2NjY3YzAsLTI1LjI2OTY3IDE4LjY5NzgzLC00Ni4xMDk3NyA0MywtNDkuNTkyNzd6TTkzLjE2NjY3LDE0LjY5NzI3djIxLjcwOTk2YzI0LjMwMjE3LDMuNDgzIDQzLDI0LjMzMDI3IDQzLDQ5LjU5Mjc3YzAsNC4zMTQzMyAtMC41OTg4Nyw4LjQ2NTg1IC0xLjYyMzY5LDEyLjQ1NzY4bDIwLjAzMDI3LDguMzU2NDVjMS45OTk1LC02LjU5MzMzIDMuMDkzNDMsLTEzLjU3NTggMy4wOTM0MywtMjAuODE0MTNjMCwtMzcuMTU5MTcgLTI4LjI4NjgzLC02Ny43MDUwNyAtNjQuNSwtNzEuMzAyNzN6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4="
-                    />
-                  </div>
-                  <a
-                    target="_blank"
-                    href="https://khalteck-todo-app.netlify.app/"
-                    ><button class="view">View</button></a
-                  >
-                </div>
-              </div>
-            </div>
-            <h2>Todo app</h2>
-            <p class="info">Todo app with CRUD functionalities.</p>
-            <img class="label" src="./images/icons8-label-64.png" />
-            <div class="stack-info-hold">
-              <div class="stack-info">
-                <p>React.js</p>
-                <img src="https://img.icons8.com/office/344/react.png" />
-              </div>
-              <div class="stack-info">
-                <p>CSS</p>
-                <img src="https://img.icons8.com/color/344/css3.png" />
-              </div>
-              <a href="https://github.com/khalteck/Todo-app"
-                ><div class="view-code">View code</div></a
-              >
-            </div>
-          </div>
-
-          <div class="box-hold">
-            <div class="box box5">
-              <div class="box-name">
-                <div class="hold">
-                  Loopstudios Landing Page
-                  <div class="stack-strip">
-                    <img src="https://img.icons8.com/office/344/react.png" />
-                    <img src="https://img.icons8.com/color/344/css3.png" />
-                  </div>
-                  <a
-                    target="_blank"
-                    href="https://khalteck-loopstudios.netlify.app/"
-                    ><button class="view">View</button></a
-                  >
-                </div>
-              </div>
-            </div>
-            <h2>Loopstudios</h2>
-            <p class="info">Loopstudios Landing Page</p>
-            <img class="label" src="./images/icons8-label-64.png" />
-            <div class="stack-info-hold">
-              <div class="stack-info">
-                <p>React.js</p>
-                <img src="https://img.icons8.com/office/344/react.png" />
-              </div>
-              <div class="stack-info">
-                <p>CSS</p>
-                <img src="https://img.icons8.com/color/344/css3.png" />
-              </div>
-              <a href="https://github.com/khalteck/loopstudios-landing-page"
-                ><div class="view-code">View code</div></a
-              >
-            </div>
-          </div>
-
-          <div class="box-hold">
-            <div class="box box11">
-              <div class="box-name">
-                <div class="hold">
-                  Easybank landing page
-                  <div class="stack-strip">
-                    <img src="https://img.icons8.com/office/344/react.png" />
-                    <img src="https://img.icons8.com/color/344/css3.png" />
-                  </div>
-                  <a
-                    target="_blank"
-                    href="https://khalteck-easybank.netlify.app/"
-                    ><button class="view">View</button></a
-                  >
-                </div>
-              </div>
-            </div>
-            <h2>Easybank</h2>
-            <p class="info">Easybank landing page</p>
-            <img class="label" src="./images/icons8-label-64.png" />
-            <div class="stack-info-hold">
-              <div class="stack-info">
-                <p>React.js</p>
-                <img src="https://img.icons8.com/office/344/react.png" />
-              </div>
-              <div class="stack-info">
-                <p>CSS</p>
-                <img src="https://img.icons8.com/color/344/css3.png" />
-              </div>
-              <a href="https://github.com/khalteck/easybank-landing-page"
-                ><div class="view-code">View code</div></a
-              >
-            </div>
-          </div>
-        </div> -->
-
-        <!-- <div class="box-hold">
-          <div class="box box6">
+        <div class="box-hold">
+          <div class="box box9">
             <div class="box-name">
               <div class="hold">
-                Crowdfunding page
+                Covid-19
                 <div class="stack-strip">
-                  <img src="https://img.icons8.com/office/344/react.png" />
-                  <img src="https://img.icons8.com/color/344/css3.png" />
+                  <img src="https://img.icons8.com/?size=100&id=03aYi0fY0D9X&format=png&color=FB923C" />
+                  <img src="https://img.icons8.com/?size=100&id=11566&format=png&color=FB923C" />
+                  <img src="https://img.icons8.com/?size=100&id=25010&format=png&color=FB923C" />
                 </div>
-                <a
-                  target="_blank"
-                  href="https://khalteck-crowdfunding-page.netlify.app/"
-                  ><button class="view">View</button></a
-                >
+                <a target="_blank" href="./works/NCDC_COVID-19_ANALYSIS.....pdf"><button class="view">View</button></a>
               </div>
+            </div>
+          </div>
+          <h2>Covid-19</h2>
+          <p class="info">A NCDC COVID-19 live report.</p>
+          <img class="label" src="./images/icons8-label-64.png" />
+          <div class="stack-info-hold">
+            <div class="stack-info">
+              <p>PowerBi</p>
+              <img src="https://img.icons8.com/?size=100&id=03aYi0fY0D9X&format=png&color=FB923C" />
+            </div>
+            <div class="stack-info">
+              <p>Microsoft Excel</p>
+              <img src="https://img.icons8.com/?size=100&id=11566&format=png&color=FB923C" />
+            </div>
+            <div class="stack-info">
+              <p>PostgreSQL</p>
+              <img src="https://img.icons8.com/?size=100&id=25010&format=png&color=FB923C" />
+            </div>
+          </div>
+        </div>
+
+
+        <div class="box-hold">
+          <div class="box box3">
+            <div class="box-name">
+              <div class="hold">
+                NYC
+                <div class="stack-strip">
+                  <img src="https://img.icons8.com/?size=100&id=03aYi0fY0D9X&format=png&color=FB923C" />
+                  <img src="https://img.icons8.com/?size=100&id=11566&format=png&color=FB923C" />
+                  <img src="https://img.icons8.com/?size=100&id=25010&format=png&color=FB923C" />
+                </div>
+                <a target="_blank" href="./works/NYC TAXI.pdf"><button
+                    class="view">View</button></a>
+              </div>
+            </div>
+          </div>
+          <h2>NYC</h2>
+          <p class="info">
+            An Analysis on New York City taxi trips.
+          </p>
+          <img class="label" src="./images/icons8-label-64.png" />
+          <div class="stack-info-hold">
+            <div class="stack-info">
+              <p>PowerBi</p>
+              <img src="https://img.icons8.com/?size=100&id=03aYi0fY0D9X&format=png&color=FB923C" />
+            </div>
+            <div class="stack-info">
+              <p>Microsoft Excel</p>
+              <img src="https://img.icons8.com/?size=100&id=11566&format=png&color=FB923C" />
+            </div>
+            <div class="stack-info">
+              <p>PostgreSQL</p>
+              <img src="https://img.icons8.com/?size=100&id=25010&format=png&color=FB923C" />
             </div>
           </div>
         </div>
 
         <div class="box-hold">
-          <div class="box box8">
+          <div class="box box4">
             <div class="box-name">
               <div class="hold">
-                Tenzies Game
+                Cholera
                 <div class="stack-strip">
-                  <img src="https://img.icons8.com/office/344/react.png" />
-                  <img src="./images/pngaaa.com-3920388.png" />
+                  <img src="https://img.icons8.com/?size=100&id=03aYi0fY0D9X&format=png&color=FB923C" />
+                  <img src="https://img.icons8.com/?size=100&id=11566&format=png&color=FB923C" />
+                  <img src="https://img.icons8.com/?size=100&id=25010&format=png&color=FB923C" />
                 </div>
-                <a
-                  target="_blank"
-                  href="https://khalteck-tenzies-game.netlify.app/"
-                  ><button class="view">View</button></a
-                >
+                <a target="_blank" href="./works/Project_Work 3.pdf"><button class="view">View</button></a>
               </div>
             </div>
           </div>
-        </div> -->
-
-        <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!mobile!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-        <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!mobile!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-        <div class="cont-mobile">
-          <!-- <div
-            class="box-hold"
-            data-aos="fade-down-right"
-            data-aos-duration="1000"
-          >
-            <div class="box box10">
-              <div class="box-name">
-                <div class="hold">
-                  Afrogrids
-                  <div class="stack-strip">
-                    <img src="https://img.icons8.com/office/344/react.png" />
-                    <img src="./images/pngaaa.com-3920388.png" />
-                    <img src="https://img.icons8.com/color/512/firebase.png" />
-                  </div>
-                  <a target="_blank" href="https://afrogrids.com"
-                    ><button class="view">View</button></a
-                  >
-                </div>
-              </div>
+          <h2>Cholera</h2>
+          <p class="info">
+            An analysis on 1853 Stockholm cholera outbreak.
+          </p>
+          <img class="label" src="./images/icons8-label-64.png" />
+          <div class="stack-info-hold">
+            <div class="stack-info">
+              <p>PowerBi</p>
+              <img src="https://img.icons8.com/?size=100&id=03aYi0fY0D9X&format=png&color=FB923C" />
             </div>
-            <h2>Afrogrids</h2>
-            <p class="info">
-              Digital colonialism, internet infrastructure (undersea cables) and
-              alternate futures through storytelling.
-            </p>
-            <img class="label" src="./images/icons8-label-64.png" />
-            <div class="stack-info-hold">
-              <div class="stack-info">
-                <p>React.js</p>
-                <img src="https://img.icons8.com/office/344/react.png" />
-              </div>
-              <div class="stack-info">
-                <p>Tailwind</p>
-                <img src="./images/pngaaa.com-3920388.png" />
-              </div>
-              <div class="stack-info">
-                <p>Firebase</p>
-                <img src="https://img.icons8.com/color/512/firebase.png" />
-              </div>
-              <div class="stack-info">
-                <p>Api</p>
-                <img
-                  src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNlY2YwZjEiPjxwYXRoIGQ9Ik02OS4yODcxMSwxNC4zMzMzM2wtMy41MjczNCwxOC4wODQ2NGMtNS45MzQsMi4yMzYgLTExLjM0NTg0LDUuMzQ2NzggLTE2LjA4MzAxLDkuMjM4MjhsLTE3LjM3MDc3LC01Ljk3Njg5bC0xNi43MjY4OSwyOC45NzQ2MWwxMy44OTk0MSwxMi4wOTM3NWMtMC41NTE4MywzLjM3NTUgLTAuODExODUsNi4zOTk5NSAtMC44MTE4NSw5LjI1MjI4YzAsMi44MzA4MyAwLjI2NzE4LDUuODYyMTEgMC44MTE4NSw5LjI2NjI4bC0xMy44OTk0MSwxMi4wOTM3NWwxNi43MjY4OSwyOC45NjA2MWwxNy4zNTY3NywtNS45NzY4OWM0Ljc1MTUsMy44OTg2NyAxMC4xNzAxNyw3LjAxNjI4IDE2LjA5Nyw5LjI1MjI4bDMuNTI3MzQsMTguMDcwNjRoOS41NDYyMnYtMjUuOTM3MThsLTAuNTMxOSwtMi43Mjk0OWwtNy40NzQ2MSwtMi44Mjc0N2MtNC40NjQ4MywtMS42ODQxNyAtOC41MTgyNSwtNC4wMDUwNSAtMTIuMDY1NzUsLTYuOTE0NzJsLTYuMTg2ODUsLTUuMDgxMDVsLTEzLjc3MzQ0LDQuNzQ1MTFsLTQuODk5MDksLTguNTEwNDJsMTEuMDAxOTUsLTkuNTc0MjJsLTEuMjczNzYsLTcuODUyNTRjLTAuNDIyODMsLTIuNjMwMTcgLTAuNjI5ODgsLTQuOTIwNyAtMC42Mjk4OCwtNi45ODQ3YzAsLTIuMDc4MzMgMC4yMDcwNSwtNC4zNTQ4NyAwLjYyOTg4LC02Ljk3MDdsMS4yNzM3NiwtNy44NjY1NGwtMTEuMDE1OTUsLTkuNTc0MjJsNC45MTMwOSwtOC41MTA0MmwxMy43NTk0NCw0Ljc0NTEybDYuMjAwODUsLTUuMDgxMDVjMy41MzMxNywtMi45MDk2NyA3LjYwNzc1LC01LjIzMDU1IDEyLjA3OTc1LC02LjkxNDcxbDcuNDYwNjEsLTIuODI3NDdsMi43OTk0OCwtMTQuMzMzMzNoOS44MTIxOGwyLjc4NTQ4LDE0LjMzMzMzbDcuNDc0NjEsMi44Mjc0N2M0LjQ2NDgzLDEuNjg0MTcgOC41MzIyNSw0LjAwNTA1IDEyLjA3OTc1LDYuOTE0NzFsNi4xODY4NSw1LjA4MTA1bDEzLjc1OTQ0LC00Ljc0NTEybDQuOTEzMDgsOC41MTA0MmwtMTEuMDAxOTUsOS41NjAyMmwxLjI1OTc2LDcuODY2NTR2MC4wMjc5OWMwLjQyMjgzLDIuNjA4NjcgMC42Mjk4OSw0Ljg3ODM3IDAuNjI5ODksNi45NTY3YzAsMi4wNzgzMyAtMC4yMDcwNSw0LjM1NDg3IC0wLjYyOTg5LDYuOTcwN2wtMS4yNzM3Niw3Ljg2NjUzbDcuNjU2NTcsNi42NjI3NmgyMS41ODM5OWwwLjA4Mzk5LC0wLjE1Mzk3bC0xMy44OTk0MSwtMTIuMDkzNzVjMC41NDQ2NywtMy4zNzU1IDAuODExODUsLTYuMzk5OTUgMC44MTE4NSwtOS4yNTIyOGMwLC0yLjg1MjMzIC0wLjI2MDAxLC01Ljg4MzYxIC0wLjgxMTg1LC05LjI2NjI4bDEzLjg5OTQxLC0xMi4wOTM3NWwtMTYuNzI2ODksLTI4Ljk2MDYxbC0xNy4zNTY3OCw1Ljk3Njg5Yy00Ljc1MTUsLTMuODk4NjcgLTEwLjE3MDE3LC03LjAxNjI4IC0xNi4wOTcsLTkuMjUyMjhsLTMuNTI3MzUsLTE4LjA3MDY0ek04Niw1Ny4zMzMzM2MtMTUuNzQxNzUsMCAtMjguNjY2NjcsMTIuOTI0OTIgLTI4LjY2NjY3LDI4LjY2NjY3YzAsMTUuNzQxNzUgMTIuOTI0OTIsMjguNjY2NjcgMjguNjY2NjcsMjguNjY2NjdjMTUuNzQxNzUsMCAyOC42NjY2NywtMTIuOTI0OTIgMjguNjY2NjcsLTI4LjY2NjY3YzAsLTE1Ljc0MTc1IC0xMi45MjQ5MiwtMjguNjY2NjcgLTI4LjY2NjY3LC0yOC42NjY2N3pNODYsNzEuNjY2NjdjNy45NjU1OSwwIDE0LjMzMzMzLDYuMzY3NzUgMTQuMzMzMzMsMTQuMzMzMzNjMCw3Ljk2NTU5IC02LjM2Nzc1LDE0LjMzMzMzIC0xNC4zMzMzMywxNC4zMzMzM2MtNy45NjU1OSwwIC0xNC4zMzMzMywtNi4zNjc3NSAtMTQuMzMzMzMsLTE0LjMzMzMzYzAsLTcuOTY1NTkgNi4zNjc3NSwtMTQuMzMzMzMgMTQuMzMzMzMsLTE0LjMzMzMzek0xMDIuODEwODcsMTIxLjgzMzMzbC05LjY0NDIsMzUuODMzMzNoNy41NDQ1OWwxLjg0NzY2LC03LjE2NjY3aDkuNzk4MTdsMS44NjE2Niw3LjE2NjY3aDcuNjE0NThsLTkuNzAwMiwtMzUuODMzMzN6TTEyOSwxMjEuODMzMzN2MzUuODMzMzNoNy4xNjY2N3YtMTQuMzMzMzNoMy41ODMzM2M1LjkzNCwwIDEwLjc1LC00LjgxNiAxMC43NSwtMTAuNzVjMCwtNS45MzQgLTQuODE2LC0xMC43NSAtMTAuNzUsLTEwLjc1ek0xNTcuNjY2NjcsMTIxLjgzMzMzdjM1LjgzMzMzaDcuMTY2Njd2LTM1LjgzMzMzek0xMzYuMTY2NjcsMTI5aDMuNTgzMzNjMS45NzgsMCAzLjU4MzMzLDEuNjA1MzMgMy41ODMzMywzLjU4MzMzYzAsMS45NzggLTEuNjA1MzMsMy41ODMzMyAtMy41ODMzMywzLjU4MzMzaC0zLjU4MzMzek0xMDcuNDQ0MDEsMTMxLjUzMzUzbDMuMDY1NDMsMTEuNzk5OGgtNi4xMDI4N3oiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg=="
-                />
-              </div>
-
-              <!-- <a href="#"><div class="view-code">View code</div></a> 
+            <div class="stack-info">
+              <p>Microsoft Excel</p>
+              <img src="https://img.icons8.com/?size=100&id=11566&format=png&color=FB923C" />
+            </div>
+            <div class="stack-info">
+              <p>PostgreSQL</p>
+              <img src="https://img.icons8.com/?size=100&id=25010&format=png&color=FB923C" />
             </div>
           </div>
+        </div>
 
-          <div
-            class="box-hold"
-            data-aos="fade-down-left"
-            data-aos-duration="1000"
-          >
-            <div class="box box3">
-              <div class="box-name">
-                <div class="hold">
-                  Notesapp
-                  <div class="stack-strip">
-                    <img src="https://img.icons8.com/office/344/react.png" />
-                    <img src="./images/pngaaa.com-3920388.png" />
-                    <img src="https://img.icons8.com/color/512/firebase.png" />
-                  </div>
-                  <a
-                    target="_blank"
-                    href="https://khalteck-sticky-note.netlify.app/"
-                    ><button class="view">View</button></a
-                  >
-                </div>
-              </div>
-            </div>
-            <h2>Notes app</h2>
-            <p class="info">
-              A notes app (CRUD app), to manage and organize sticky notes. Users
-              can Register and sign in, create, view, edit & delete notes
-            </p>
-            <img class="label" src="./images/icons8-label-64.png" />
-            <div class="stack-info-hold">
-              <div class="stack-info">
-                <p>React.js</p>
-                <img src="https://img.icons8.com/office/344/react.png" />
-              </div>
-              <div class="stack-info">
-                <p>Tailwind</p>
-                <img src="./images/pngaaa.com-3920388.png" />
-              </div>
-              <div class="stack-info">
-                <p>Firebase</p>
-                <img src="https://img.icons8.com/color/512/firebase.png" />
-              </div>
-
-              <a href="https://github.com/khalteck/sticky-note-app"
-                ><div class="view-code">View code</div></a
-              >
-            </div>
-          </div>
-
-          <div
-            class="box-hold"
-            data-aos="fade-down-right"
-            data-aos-duration="1000"
-          >
-            <div class="box box4">
-              <div class="box-name">
-                <div class="hold">
-                  LorenzoTV
-                  <div class="stack-strip">
-                    <img src="https://img.icons8.com/office/344/react.png" />
-                    <img src="./images/pngaaa.com-3920388.png" />
-                  </div>
-                  <a
-                    target="_blank"
-                    href="https://khalteck-lorenzotv.netlify.app/"
-                    ><button class="view">View</button></a
-                  >
-                </div>
-              </div>
-            </div>
-            <h2>LorenzoTV</h2>
-            <p class="info">
-              A movie website. This project demonstrates the power of React when
-              making data-driven webapps.
-            </p>
-            <img class="label" src="./images/icons8-label-64.png" />
-            <div class="stack-info-hold">
-              <div class="stack-info">
-                <p>React.js</p>
-                <img src="https://img.icons8.com/office/344/react.png" />
-              </div>
-              <div class="stack-info">
-                <p>Tailwind</p>
-                <img src="./images/pngaaa.com-3920388.png" />
-              </div>
-              <div class="stack-info">
-                <p>Firebase</p>
-                <img src="https://img.icons8.com/color/512/firebase.png" />
-              </div>
-
-              <a href="https://github.com/khalteck/lorenzotv"
-                ><div class="view-code">View code</div></a
-              >
-            </div>
-          </div>
-
-          <div
-            class="box-hold"
-            data-aos="fade-down-left"
-            data-aos-duration="1000"
-          >
-            <div class="box box2">
-              <div class="box-name">
-                <div class="hold">
-                  Iroko events Intl
-                  <div class="stack-strip">
-                    <img
-                      src="https://img.icons8.com/color/344/html-5--v1.png"
-                    />
-                    <img src="https://img.icons8.com/color/344/css3.png" />
-                    <img
-                      src="https://img.icons8.com/color/344/javascript--v1.png"
-                    />
-                  </div>
-                  <a target="_blank" href="https://irokoevents.ng/"
-                    ><button class="view">View</button></a
-                  >
-                </div>
-              </div>
-            </div>
-            <h2>Irokoevents.ng</h2>
-            <p class="info">
-              Iroko events International, a celeberation of african music and
-              culture
-            </p>
-            <img class="label" src="./images/icons8-label-64.png" />
-            <div class="stack-info-hold">
-              <div class="stack-info">
-                <p>HTML</p>
-                <img src="https://img.icons8.com/color/344/html-5--v1.png" />
-              </div>
-              <div class="stack-info">
-                <p>CSS</p>
-                <img src="https://img.icons8.com/color/344/css3.png" />
-              </div>
-              <div class="stack-info">
-                <p>JavaScript</p>
-                <img
-                  src="https://img.icons8.com/color/344/javascript--v1.png"
-                />
-              </div>
-
-              <!-- <a href="https://github.com/khalteck/sticky-note-app"
-                ><div class="view-code">View code</div></a
-              > 
-            </div>
-          </div>
-
-          <div
-            class="box-hold"
-            data-aos="fade-down-right"
-            data-aos-duration="1000"
-          >
-            <div class="box box7">
-              <div class="box-name">
-                <div class="hold">
-                  Lonacare
-                  <div class="stack-strip">
-                    <img
-                      src="https://img.icons8.com/color/344/html-5--v1.png"
-                    />
-                    <img src="./images/pngaaa.com-3920388.png" />
-                    <img
-                      src="https://img.icons8.com/color/344/javascript--v1.png"
-                    />
-                  </div>
-                  <a target="_blank" href="https://lonacare.netlify.app/"
-                    ><button class="view">View</button></a
-                  >
-                </div>
-              </div>
-            </div>
-            <h2>Lonacare</h2>
-            <p class="info">
-              Lona care is a semi-independent living services provider.
-            </p>
-            <img class="label" src="./images/icons8-label-64.png" />
-            <div class="stack-info-hold">
-              <div class="stack-info">
-                <p>React.js</p>
-                <img src="https://img.icons8.com/office/344/react.png" />
-              </div>
-              <div class="stack-info">
-                <p>Tailwind</p>
-                <img src="./images/pngaaa.com-3920388.png" />
-              </div>
-              <a href="https://github.com/khalteck/ecommerce-product-page"
-                ><div class="view-code">View code</div></a
-              >
-            </div>
-          </div>
-
-          <div
-            class="box-hold"
-            data-aos="fade-down-left"
-            data-aos-duration="1000"
-          >
-            <div class="box box9">
-              <div class="box-name">
-                <div class="hold">
-                  E-commerce product page
-                  <div class="stack-strip">
-                    <img src="https://img.icons8.com/office/344/react.png" />
-                    <img src="./images/pngaaa.com-3920388.png" />
-                    <img
-                      src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik03OC44MzMzMywxNC42OTcyN2MtMzYuMjEzMTcsMy41OTc2NyAtNjQuNSwzNC4xNDM1NyAtNjQuNSw3MS4zMDI3M2MwLDM5LjU4MTUgMzIuMDg1MTcsNzEuNjY2NjcgNzEuNjY2NjcsNzEuNjY2NjdjMjcuMjU0ODMsMCA1MC45NTM0MywtMTUuMjIyIDYzLjA3MjI2LC0zNy42MjVsLTIwLjA0NDI3LC04LjM0MjQ0Yy04Ljc1NzY3LDE0LjY0MTQ5IC0yNC43MjQzMywyNC40Njc0NCAtNDMuMDI3OTksMjQuNDY3NDRjLTI3LjcwNjMzLDAgLTUwLjE2NjY3LC0yMi40NjAzMyAtNTAuMTY2NjcsLTUwLjE2NjY3YzAsLTI1LjI2OTY3IDE4LjY5NzgzLC00Ni4xMDk3NyA0MywtNDkuNTkyNzd6TTkzLjE2NjY3LDE0LjY5NzI3djIxLjcwOTk2YzI0LjMwMjE3LDMuNDgzIDQzLDI0LjMzMDI3IDQzLDQ5LjU5Mjc3YzAsNC4zMTQzMyAtMC41OTg4Nyw4LjQ2NTg1IC0xLjYyMzY5LDEyLjQ1NzY4bDIwLjAzMDI3LDguMzU2NDVjMS45OTk1LC02LjU5MzMzIDMuMDkzNDMsLTEzLjU3NTggMy4wOTM0MywtMjAuODE0MTNjMCwtMzcuMTU5MTcgLTI4LjI4NjgzLC02Ny43MDUwNyAtNjQuNSwtNzEuMzAyNzN6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4="
-                    />
-                  </div>
-                  <a
-                    target="_blank"
-                    href="https://khalteck-ecommerce-product-page.netlify.app/"
-                    ><button class="view">View</button></a
-                  >
-                </div>
-              </div>
-            </div>
-            <h2>E-commerce product page</h2>
-            <p class="info">E-commerce product page with working cart system</p>
-            <img class="label" src="./images/icons8-label-64.png" />
-            <div class="stack-info-hold">
-              <div class="stack-info">
-                <p>React.js</p>
-                <img src="https://img.icons8.com/office/344/react.png" />
-              </div>
-              <div class="stack-info">
-                <p>Tailwind</p>
-                <img src="./images/pngaaa.com-3920388.png" />
-              </div>
-              <a href="https://github.com/khalteck/ecommerce-product-page"
-                ><div class="view-code">View code</div></a
-              >
-            </div>
-          </div> -->
-
-          <!-- <div
-            class="box-hold"
-            data-aos="fade-down-right"
-            data-aos-duration="1000"
-          >
-            <div class="box box1">
-              <div class="box-name">
-                <div class="hold">
-                  Todo app<br />
-                  <div class="stack-strip">
-                    <img src="https://img.icons8.com/office/344/react.png" />
-                    <img src="https://img.icons8.com/color/344/css3.png" />
-                    <img
-                      src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik03OC44MzMzMywxNC42OTcyN2MtMzYuMjEzMTcsMy41OTc2NyAtNjQuNSwzNC4xNDM1NyAtNjQuNSw3MS4zMDI3M2MwLDM5LjU4MTUgMzIuMDg1MTcsNzEuNjY2NjcgNzEuNjY2NjcsNzEuNjY2NjdjMjcuMjU0ODMsMCA1MC45NTM0MywtMTUuMjIyIDYzLjA3MjI2LC0zNy42MjVsLTIwLjA0NDI3LC04LjM0MjQ0Yy04Ljc1NzY3LDE0LjY0MTQ5IC0yNC43MjQzMywyNC40Njc0NCAtNDMuMDI3OTksMjQuNDY3NDRjLTI3LjcwNjMzLDAgLTUwLjE2NjY3LC0yMi40NjAzMyAtNTAuMTY2NjcsLTUwLjE2NjY3YzAsLTI1LjI2OTY3IDE4LjY5NzgzLC00Ni4xMDk3NyA0MywtNDkuNTkyNzd6TTkzLjE2NjY3LDE0LjY5NzI3djIxLjcwOTk2YzI0LjMwMjE3LDMuNDgzIDQzLDI0LjMzMDI3IDQzLDQ5LjU5Mjc3YzAsNC4zMTQzMyAtMC41OTg4Nyw4LjQ2NTg1IC0xLjYyMzY5LDEyLjQ1NzY4bDIwLjAzMDI3LDguMzU2NDVjMS45OTk1LC02LjU5MzMzIDMuMDkzNDMsLTEzLjU3NTggMy4wOTM0MywtMjAuODE0MTNjMCwtMzcuMTU5MTcgLTI4LjI4NjgzLC02Ny43MDUwNyAtNjQuNSwtNzEuMzAyNzN6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4="
-                    />
-                  </div>
-                  <a
-                    target="_blank"
-                    href="https://khalteck-todo-app.netlify.app/"
-                    ><button class="view">View</button></a
-                  >
-                </div>
-              </div>
-            </div>
-            <h2>Todo app</h2>
-            <p class="info">Todo app with CRUD functionalities.</p>
-            <img class="label" src="./images/icons8-label-64.png" />
-            <div class="stack-info-hold">
-              <div class="stack-info">
-                <p>React.js</p>
-                <img src="https://img.icons8.com/office/344/react.png" />
-              </div>
-              <div class="stack-info">
-                <p>CSS</p>
-                <img src="https://img.icons8.com/color/344/css3.png" />
-              </div>
-              <a href="https://github.com/khalteck/Todo-app"
-                ><div class="view-code">View code</div></a
-              >
-            </div>
-          </div>
-
-          <div
-            class="box-hold"
-            data-aos="fade-down-left"
-            data-aos-duration="1000"
-          >
-            <div class="box box5">
-              <div class="box-name">
-                <div class="hold">
-                  Loopstudios Landing Page
-                  <div class="stack-strip">
-                    <img src="https://img.icons8.com/office/344/react.png" />
-                    <img src="https://img.icons8.com/color/344/css3.png" />
-                  </div>
-                  <a
-                    target="_blank"
-                    href="https://khalteck-loopstudios.netlify.app/"
-                    ><button class="view">View</button></a
-                  >
-                </div>
-              </div>
-            </div>
-            <h2>Loopstudios</h2>
-            <p class="info">Loopstudios Landing Page</p>
-            <img class="label" src="./images/icons8-label-64.png" />
-            <div class="stack-info-hold">
-              <div class="stack-info">
-                <p>React.js</p>
-                <img src="https://img.icons8.com/office/344/react.png" />
-              </div>
-              <div class="stack-info">
-                <p>CSS</p>
-                <img src="https://img.icons8.com/color/344/css3.png" />
-              </div>
-              <a href="https://github.com/khalteck/loopstudios-landing-page"
-                ><div class="view-code">View code</div></a
-              >
-            </div>
-          </div>
-
-          <div
-            class="box-hold"
-            data-aos="fade-down-right"
-            data-aos-duration="1000"
-          >
-            <div class="box box11">
-              <div class="box-name">
-                <div class="hold">
-                  Easybank landing page
-                  <div class="stack-strip">
-                    <img src="https://img.icons8.com/office/344/react.png" />
-                    <img src="https://img.icons8.com/color/344/css3.png" />
-                  </div>
-                  <a
-                    target="_blank"
-                    href="https://khalteck-easybank.netlify.app/"
-                    ><button class="view">View</button></a
-                  >
-                </div>
-              </div>
-            </div>
-            <h2>Easybank</h2>
-            <p class="info">Easybank landing page</p>
-            <img class="label" src="./images/icons8-label-64.png" />
-            <div class="stack-info-hold">
-              <div class="stack-info">
-                <p>React.js</p>
-                <img src="https://img.icons8.com/office/344/react.png" />
-              </div>
-              <div class="stack-info">
-                <p>CSS</p>
-                <img src="https://img.icons8.com/color/344/css3.png" />
-              </div>
-              <a href="https://github.com/khalteck/easybank-landing-page"
-                ><div class="view-code">View code</div></a
-              >
-            </div>
-          </div>
-        </div> -->
-
-        <!-- <div class="cont-mobile">
-          <div
-            class="box box3"
-            data-aos="fade-down-right"
-            data-aos-duration="1000"
-          >
+        <div class="box-hold">
+          <div class="box box7">
             <div class="box-name">
               <div class="hold">
-                Notesapp (CRUD app)
+                Bitcoin
                 <div class="stack-strip">
-                  <img src="https://img.icons8.com/office/344/react.png" />
-                  <img src="./images/pngaaa.com-3920388.png" />
-                  <img src="https://img.icons8.com/color/512/firebase.png" />
+                  <img src="https://img.icons8.com/?size=100&id=03aYi0fY0D9X&format=png&color=FB923C" />
+                  <img src="https://img.icons8.com/?size=100&id=11566&format=png&color=FB923C" />
+                  <img src="https://img.icons8.com/?size=100&id=25010&format=png&color=FB923C" />
                 </div>
-                <a
-                  target="_blank"
-                  href="https://khalteck-sticky-note.netlify.app/"
-                  ><button class="view">View</button></a
-                >
+                <a target="_blank" href="./works/Project_Work 2.pdf"><button class="view">View</button></a>
               </div>
             </div>
           </div>
-          <div
-            class="box box7"
-            data-aos="fade-down-right"
-            data-aos-duration="1000"
-          >
-            <div class="box-name">
-              <div class="hold">
-                Travas.io
-                <div class="stack-strip">
-                  <img src="https://img.icons8.com/color/344/html-5--v1.png" />
-                  <img src="./images/pngaaa.com-3920388.png" />
-                  <img
-                    src="https://img.icons8.com/color/344/javascript--v1.png"
-                  />
-                </div>
-                <a target="_blank" href="https://travas.io"
-                  ><button class="view">View</button></a
-                >
-              </div>
+          <h2>Bitcoin</h2>
+          <p class="info">
+            A Bitcoin historcal analysis from Jan 2012 to Mar 2021.
+          </p>
+          <img class="label" src="./images/icons8-label-64.png" />
+          <div class="stack-info-hold">
+            <div class="stack-info">
+              <p>PowerBi</p>
+              <img src="https://img.icons8.com/?size=100&id=03aYi0fY0D9X&format=png&color=FB923C" />
+            </div>
+            <div class="stack-info">
+              <p>Microsoft Excel</p>
+              <img src="https://img.icons8.com/?size=100&id=11566&format=png&color=FB923C" />
+            </div>
+            <div class="stack-info">
+              <p>PostgreSQL</p>
+              <img src="https://img.icons8.com/?size=100&id=25010&format=png&color=FB923C" />
             </div>
           </div>
-          <div
-            class="box box1"
-            data-aos="fade-down-right"
-            data-aos-duration="1000"
-          >
-            <div class="box-name">
-              <div class="hold">
-                Todo app (CRUD functionalities)<br />
-                <div class="stack-strip">
-                  <img src="https://img.icons8.com/office/344/react.png" />
-                  <img src="https://img.icons8.com/color/344/css3.png" />
-                  <img
-                    src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik03OC44MzMzMywxNC42OTcyN2MtMzYuMjEzMTcsMy41OTc2NyAtNjQuNSwzNC4xNDM1NyAtNjQuNSw3MS4zMDI3M2MwLDM5LjU4MTUgMzIuMDg1MTcsNzEuNjY2NjcgNzEuNjY2NjcsNzEuNjY2NjdjMjcuMjU0ODMsMCA1MC45NTM0MywtMTUuMjIyIDYzLjA3MjI2LC0zNy42MjVsLTIwLjA0NDI3LC04LjM0MjQ0Yy04Ljc1NzY3LDE0LjY0MTQ5IC0yNC43MjQzMywyNC40Njc0NCAtNDMuMDI3OTksMjQuNDY3NDRjLTI3LjcwNjMzLDAgLTUwLjE2NjY3LC0yMi40NjAzMyAtNTAuMTY2NjcsLTUwLjE2NjY3YzAsLTI1LjI2OTY3IDE4LjY5NzgzLC00Ni4xMDk3NyA0MywtNDkuNTkyNzd6TTkzLjE2NjY3LDE0LjY5NzI3djIxLjcwOTk2YzI0LjMwMjE3LDMuNDgzIDQzLDI0LjMzMDI3IDQzLDQ5LjU5Mjc3YzAsNC4zMTQzMyAtMC41OTg4Nyw4LjQ2NTg1IC0xLjYyMzY5LDEyLjQ1NzY4bDIwLjAzMDI3LDguMzU2NDVjMS45OTk1LC02LjU5MzMzIDMuMDkzNDMsLTEzLjU3NTggMy4wOTM0MywtMjAuODE0MTNjMCwtMzcuMTU5MTcgLTI4LjI4NjgzLC02Ny43MDUwNyAtNjQuNSwtNzEuMzAyNzN6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4="
-                  />
-                </div>
-                <a target="_blank" href="https://khalteck-todo-app.netlify.app/"
-                  ><button class="view">View</button></a
-                >
-              </div>
-            </div>
-          </div>
-          <div
-            class="box box9"
-            data-aos="fade-down-left"
-            data-aos-duration="1000"
-          >
-            <div class="box-name">
-              <div class="hold">
-                E-commerce page with working cart
-                <div class="stack-strip">
-                  <img src="https://img.icons8.com/office/344/react.png" />
-                  <img src="./images/pngaaa.com-3920388.png" />
-                  <img
-                    src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik03OC44MzMzMywxNC42OTcyN2MtMzYuMjEzMTcsMy41OTc2NyAtNjQuNSwzNC4xNDM1NyAtNjQuNSw3MS4zMDI3M2MwLDM5LjU4MTUgMzIuMDg1MTcsNzEuNjY2NjcgNzEuNjY2NjcsNzEuNjY2NjdjMjcuMjU0ODMsMCA1MC45NTM0MywtMTUuMjIyIDYzLjA3MjI2LC0zNy42MjVsLTIwLjA0NDI3LC04LjM0MjQ0Yy04Ljc1NzY3LDE0LjY0MTQ5IC0yNC43MjQzMywyNC40Njc0NCAtNDMuMDI3OTksMjQuNDY3NDRjLTI3LjcwNjMzLDAgLTUwLjE2NjY3LC0yMi40NjAzMyAtNTAuMTY2NjcsLTUwLjE2NjY3YzAsLTI1LjI2OTY3IDE4LjY5NzgzLC00Ni4xMDk3NyA0MywtNDkuNTkyNzd6TTkzLjE2NjY3LDE0LjY5NzI3djIxLjcwOTk2YzI0LjMwMjE3LDMuNDgzIDQzLDI0LjMzMDI3IDQzLDQ5LjU5Mjc3YzAsNC4zMTQzMyAtMC41OTg4Nyw4LjQ2NTg1IC0xLjYyMzY5LDEyLjQ1NzY4bDIwLjAzMDI3LDguMzU2NDVjMS45OTk1LC02LjU5MzMzIDMuMDkzNDMsLTEzLjU3NTggMy4wOTM0MywtMjAuODE0MTNjMCwtMzcuMTU5MTcgLTI4LjI4NjgzLC02Ny43MDUwNyAtNjQuNSwtNzEuMzAyNzN6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4="
-                  />
-                </div>
-                <a
-                  target="_blank"
-                  href="https://khalteck-ecommerce-product-page.netlify.app/"
-                  ><button class="view">View</button></a
-                >
-              </div>
-            </div>
-          </div>
-          <div
-            class="box box6"
-            data-aos="fade-down-left"
-            data-aos-duration="1000"
-          >
-            <div class="box-name">
-              <div class="hold">
-                Crowdfunding Page
-                <div class="stack-strip">
-                  <img src="https://img.icons8.com/office/344/react.png" />
-                  <img src="https://img.icons8.com/color/344/css3.png" />
-                </div>
-                <a
-                  target="_blank"
-                  href="https://khalteck-crowdfunding-page.netlify.app/"
-                  ><button class="view">View</button></a
-                >
-              </div>
-            </div>
-          </div>
-          <div
-            class="box box2"
-            data-aos="fade-down-right"
-            data-aos-duration="1000"
-          >
-            <div class="box-name">
-              <div class="hold">
-                Iroko events Intl
-                <div class="stack-strip">
-                  <img src="https://img.icons8.com/color/344/html-5--v1.png" />
-                  <img src="https://img.icons8.com/color/344/css3.png" />
-                  <img
-                    src="https://img.icons8.com/color/344/javascript--v1.png"
-                  />
-                </div>
-                <a target="_blank" href="https://irokoevents.ng/"
-                  ><button class="view">View</button></a
-                >
-              </div>
-            </div>
-          </div>
-          <div
-            class="box box4"
-            data-aos="fade-down-left"
-            data-aos-duration="1000"
-          >
-            <div class="box-name">
-              <div class="hold">
-                Agrofeed NG
-                <div class="stack-strip">
-                  <img src="https://img.icons8.com/color/344/html-5--v1.png" />
-                  <img src="https://img.icons8.com/color/344/css3.png" />
-                  <img
-                    src="https://img.icons8.com/color/344/javascript--v1.png"
-                  />
-                </div>
-                <a target="_blank" href="https://afis.ng/"
-                  ><button class="view">View</button></a
-                >
-              </div>
-            </div>
-          </div>
-          <div
-            class="box box12"
-            data-aos="fade-down-left"
-            data-aos-duration="1000"
-          >
-            <div class="box-name">
-              <div class="hold">
-                Meme generator
-                <div class="stack-strip">
-                  <img src="https://img.icons8.com/office/344/react.png" />
-                  <img src="./images/pngaaa.com-3920388.png" />
-                  <img
-                    src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNlY2YwZjEiPjxwYXRoIGQ9Ik02OS4yODcxMSwxNC4zMzMzM2wtMy41MjczNCwxOC4wODQ2NGMtNS45MzQsMi4yMzYgLTExLjM0NTg0LDUuMzQ2NzggLTE2LjA4MzAxLDkuMjM4MjhsLTE3LjM3MDc3LC01Ljk3Njg5bC0xNi43MjY4OSwyOC45NzQ2MWwxMy44OTk0MSwxMi4wOTM3NWMtMC41NTE4MywzLjM3NTUgLTAuODExODUsNi4zOTk5NSAtMC44MTE4NSw5LjI1MjI4YzAsMi44MzA4MyAwLjI2NzE4LDUuODYyMTEgMC44MTE4NSw5LjI2NjI4bC0xMy44OTk0MSwxMi4wOTM3NWwxNi43MjY4OSwyOC45NjA2MWwxNy4zNTY3NywtNS45NzY4OWM0Ljc1MTUsMy44OTg2NyAxMC4xNzAxNyw3LjAxNjI4IDE2LjA5Nyw5LjI1MjI4bDMuNTI3MzQsMTguMDcwNjRoOS41NDYyMnYtMjUuOTM3MThsLTAuNTMxOSwtMi43Mjk0OWwtNy40NzQ2MSwtMi44Mjc0N2MtNC40NjQ4MywtMS42ODQxNyAtOC41MTgyNSwtNC4wMDUwNSAtMTIuMDY1NzUsLTYuOTE0NzJsLTYuMTg2ODUsLTUuMDgxMDVsLTEzLjc3MzQ0LDQuNzQ1MTFsLTQuODk5MDksLTguNTEwNDJsMTEuMDAxOTUsLTkuNTc0MjJsLTEuMjczNzYsLTcuODUyNTRjLTAuNDIyODMsLTIuNjMwMTcgLTAuNjI5ODgsLTQuOTIwNyAtMC42Mjk4OCwtNi45ODQ3YzAsLTIuMDc4MzMgMC4yMDcwNSwtNC4zNTQ4NyAwLjYyOTg4LC02Ljk3MDdsMS4yNzM3NiwtNy44NjY1NGwtMTEuMDE1OTUsLTkuNTc0MjJsNC45MTMwOSwtOC41MTA0MmwxMy43NTk0NCw0Ljc0NTEybDYuMjAwODUsLTUuMDgxMDVjMy41MzMxNywtMi45MDk2NyA3LjYwNzc1LC01LjIzMDU1IDEyLjA3OTc1LC02LjkxNDcxbDcuNDYwNjEsLTIuODI3NDdsMi43OTk0OCwtMTQuMzMzMzNoOS44MTIxOGwyLjc4NTQ4LDE0LjMzMzMzbDcuNDc0NjEsMi44Mjc0N2M0LjQ2NDgzLDEuNjg0MTcgOC41MzIyNSw0LjAwNTA1IDEyLjA3OTc1LDYuOTE0NzFsNi4xODY4NSw1LjA4MTA1bDEzLjc1OTQ0LC00Ljc0NTEybDQuOTEzMDgsOC41MTA0MmwtMTEuMDAxOTUsOS41NjAyMmwxLjI1OTc2LDcuODY2NTR2MC4wMjc5OWMwLjQyMjgzLDIuNjA4NjcgMC42Mjk4OSw0Ljg3ODM3IDAuNjI5ODksNi45NTY3YzAsMi4wNzgzMyAtMC4yMDcwNSw0LjM1NDg3IC0wLjYyOTg5LDYuOTcwN2wtMS4yNzM3Niw3Ljg2NjUzbDcuNjU2NTcsNi42NjI3NmgyMS41ODM5OWwwLjA4Mzk5LC0wLjE1Mzk3bC0xMy44OTk0MSwtMTIuMDkzNzVjMC41NDQ2NywtMy4zNzU1IDAuODExODUsLTYuMzk5OTUgMC44MTE4NSwtOS4yNTIyOGMwLC0yLjg1MjMzIC0wLjI2MDAxLC01Ljg4MzYxIC0wLjgxMTg1LC05LjI2NjI4bDEzLjg5OTQxLC0xMi4wOTM3NWwtMTYuNzI2ODksLTI4Ljk2MDYxbC0xNy4zNTY3OCw1Ljk3Njg5Yy00Ljc1MTUsLTMuODk4NjcgLTEwLjE3MDE3LC03LjAxNjI4IC0xNi4wOTcsLTkuMjUyMjhsLTMuNTI3MzUsLTE4LjA3MDY0ek04Niw1Ny4zMzMzM2MtMTUuNzQxNzUsMCAtMjguNjY2NjcsMTIuOTI0OTIgLTI4LjY2NjY3LDI4LjY2NjY3YzAsMTUuNzQxNzUgMTIuOTI0OTIsMjguNjY2NjcgMjguNjY2NjcsMjguNjY2NjdjMTUuNzQxNzUsMCAyOC42NjY2NywtMTIuOTI0OTIgMjguNjY2NjcsLTI4LjY2NjY3YzAsLTE1Ljc0MTc1IC0xMi45MjQ5MiwtMjguNjY2NjcgLTI4LjY2NjY3LC0yOC42NjY2N3pNODYsNzEuNjY2NjdjNy45NjU1OSwwIDE0LjMzMzMzLDYuMzY3NzUgMTQuMzMzMzMsMTQuMzMzMzNjMCw3Ljk2NTU5IC02LjM2Nzc1LDE0LjMzMzMzIC0xNC4zMzMzMywxNC4zMzMzM2MtNy45NjU1OSwwIC0xNC4zMzMzMywtNi4zNjc3NSAtMTQuMzMzMzMsLTE0LjMzMzMzYzAsLTcuOTY1NTkgNi4zNjc3NSwtMTQuMzMzMzMgMTQuMzMzMzMsLTE0LjMzMzMzek0xMDIuODEwODcsMTIxLjgzMzMzbC05LjY0NDIsMzUuODMzMzNoNy41NDQ1OWwxLjg0NzY2LC03LjE2NjY3aDkuNzk4MTdsMS44NjE2Niw3LjE2NjY3aDcuNjE0NThsLTkuNzAwMiwtMzUuODMzMzN6TTEyOSwxMjEuODMzMzN2MzUuODMzMzNoNy4xNjY2N3YtMTQuMzMzMzNoMy41ODMzM2M1LjkzNCwwIDEwLjc1LC00LjgxNiAxMC43NSwtMTAuNzVjMCwtNS45MzQgLTQuODE2LC0xMC43NSAtMTAuNzUsLTEwLjc1ek0xNTcuNjY2NjcsMTIxLjgzMzMzdjM1LjgzMzMzaDcuMTY2Njd2LTM1LjgzMzMzek0xMzYuMTY2NjcsMTI5aDMuNTgzMzNjMS45NzgsMCAzLjU4MzMzLDEuNjA1MzMgMy41ODMzMywzLjU4MzMzYzAsMS45NzggLTEuNjA1MzMsMy41ODMzMyAtMy41ODMzMywzLjU4MzMzaC0zLjU4MzMzek0xMDcuNDQ0MDEsMTMxLjUzMzUzbDMuMDY1NDMsMTEuNzk5OGgtNi4xMDI4N3oiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg=="
-                  />
-                </div>
-                <a
-                  target="_blank"
-                  href="https://khalteck-meme-generator.netlify.app/"
-                  ><button class="view">View</button></a
-                >
-              </div>
-            </div>
-          </div>
-          <div
-            class="box box8"
-            data-aos="fade-down-left"
-            data-aos-duration="1000"
-          >
-            <div class="box-name">
-              <div class="hold">
-                Tenzies Game
-                <div class="stack-strip">
-                  <img src="https://img.icons8.com/office/344/react.png" />
-                  <img src="./images/pngaaa.com-3920388.png" />
-                </div>
-                <a
-                  target="_blank"
-                  href="https://khalteck-tenzies-game.netlify.app/"
-                  ><button class="view">View</button></a
-                >
-              </div>
-            </div>
-          </div>
+        </div>
 
-          <!-- <div
-            class="box box3"
-            data-aos="fade-down-right"
-            data-aos-duration="1000"
-          >
+
+
+        <div class="box-hold">
+          <div class="box box2">
             <div class="box-name">
               <div class="hold">
-                Expenses chart component
+                Globe
                 <div class="stack-strip">
-                  <img src="https://img.icons8.com/color/344/html-5--v1.png" />
-                  <img src="https://img.icons8.com/color/344/css3.png" />
-                  <img
-                    src="https://img.icons8.com/color/344/javascript--v1.png"
-                  />
+                  <img src="https://img.icons8.com/?size=100&id=03aYi0fY0D9X&format=png&color=FB923C" />
+                  <img src="https://img.icons8.com/?size=100&id=11566&format=png&color=FB923C" />
+                  <img src="https://img.icons8.com/?size=100&id=25010&format=png&color=FB923C" />
                 </div>
-                <a
-                  target="_blank"
-                  href="https://khalteck.github.io/expenses-chart"
-                  ><button class="view">View</button></a
-                >
-              </div>
-            </div>
-          </div> 
-          <div
-            class="box box10"
-            data-aos="fade-down-left"
-            data-aos-duration="1000"
-          >
-            <div class="box-name">
-              <div class="hold">
-                Random Quote Generator
-                <div class="stack-strip">
-                  <img src="https://img.icons8.com/office/344/react.png" />
-                  <img src="https://img.icons8.com/color/344/css3.png" />
-                  <img
-                    src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNlY2YwZjEiPjxwYXRoIGQ9Ik02OS4yODcxMSwxNC4zMzMzM2wtMy41MjczNCwxOC4wODQ2NGMtNS45MzQsMi4yMzYgLTExLjM0NTg0LDUuMzQ2NzggLTE2LjA4MzAxLDkuMjM4MjhsLTE3LjM3MDc3LC01Ljk3Njg5bC0xNi43MjY4OSwyOC45NzQ2MWwxMy44OTk0MSwxMi4wOTM3NWMtMC41NTE4MywzLjM3NTUgLTAuODExODUsNi4zOTk5NSAtMC44MTE4NSw5LjI1MjI4YzAsMi44MzA4MyAwLjI2NzE4LDUuODYyMTEgMC44MTE4NSw5LjI2NjI4bC0xMy44OTk0MSwxMi4wOTM3NWwxNi43MjY4OSwyOC45NjA2MWwxNy4zNTY3NywtNS45NzY4OWM0Ljc1MTUsMy44OTg2NyAxMC4xNzAxNyw3LjAxNjI4IDE2LjA5Nyw5LjI1MjI4bDMuNTI3MzQsMTguMDcwNjRoOS41NDYyMnYtMjUuOTM3MThsLTAuNTMxOSwtMi43Mjk0OWwtNy40NzQ2MSwtMi44Mjc0N2MtNC40NjQ4MywtMS42ODQxNyAtOC41MTgyNSwtNC4wMDUwNSAtMTIuMDY1NzUsLTYuOTE0NzJsLTYuMTg2ODUsLTUuMDgxMDVsLTEzLjc3MzQ0LDQuNzQ1MTFsLTQuODk5MDksLTguNTEwNDJsMTEuMDAxOTUsLTkuNTc0MjJsLTEuMjczNzYsLTcuODUyNTRjLTAuNDIyODMsLTIuNjMwMTcgLTAuNjI5ODgsLTQuOTIwNyAtMC42Mjk4OCwtNi45ODQ3YzAsLTIuMDc4MzMgMC4yMDcwNSwtNC4zNTQ4NyAwLjYyOTg4LC02Ljk3MDdsMS4yNzM3NiwtNy44NjY1NGwtMTEuMDE1OTUsLTkuNTc0MjJsNC45MTMwOSwtOC41MTA0MmwxMy43NTk0NCw0Ljc0NTEybDYuMjAwODUsLTUuMDgxMDVjMy41MzMxNywtMi45MDk2NyA3LjYwNzc1LC01LjIzMDU1IDEyLjA3OTc1LC02LjkxNDcxbDcuNDYwNjEsLTIuODI3NDdsMi43OTk0OCwtMTQuMzMzMzNoOS44MTIxOGwyLjc4NTQ4LDE0LjMzMzMzbDcuNDc0NjEsMi44Mjc0N2M0LjQ2NDgzLDEuNjg0MTcgOC41MzIyNSw0LjAwNTA1IDEyLjA3OTc1LDYuOTE0NzFsNi4xODY4NSw1LjA4MTA1bDEzLjc1OTQ0LC00Ljc0NTEybDQuOTEzMDgsOC41MTA0MmwtMTEuMDAxOTUsOS41NjAyMmwxLjI1OTc2LDcuODY2NTR2MC4wMjc5OWMwLjQyMjgzLDIuNjA4NjcgMC42Mjk4OSw0Ljg3ODM3IDAuNjI5ODksNi45NTY3YzAsMi4wNzgzMyAtMC4yMDcwNSw0LjM1NDg3IC0wLjYyOTg5LDYuOTcwN2wtMS4yNzM3Niw3Ljg2NjUzbDcuNjU2NTcsNi42NjI3NmgyMS41ODM5OWwwLjA4Mzk5LC0wLjE1Mzk3bC0xMy44OTk0MSwtMTIuMDkzNzVjMC41NDQ2NywtMy4zNzU1IDAuODExODUsLTYuMzk5OTUgMC44MTE4NSwtOS4yNTIyOGMwLC0yLjg1MjMzIC0wLjI2MDAxLC01Ljg4MzYxIC0wLjgxMTg1LC05LjI2NjI4bDEzLjg5OTQxLC0xMi4wOTM3NWwtMTYuNzI2ODksLTI4Ljk2MDYxbC0xNy4zNTY3OCw1Ljk3Njg5Yy00Ljc1MTUsLTMuODk4NjcgLTEwLjE3MDE3LC03LjAxNjI4IC0xNi4wOTcsLTkuMjUyMjhsLTMuNTI3MzUsLTE4LjA3MDY0ek04Niw1Ny4zMzMzM2MtMTUuNzQxNzUsMCAtMjguNjY2NjcsMTIuOTI0OTIgLTI4LjY2NjY3LDI4LjY2NjY3YzAsMTUuNzQxNzUgMTIuOTI0OTIsMjguNjY2NjcgMjguNjY2NjcsMjguNjY2NjdjMTUuNzQxNzUsMCAyOC42NjY2NywtMTIuOTI0OTIgMjguNjY2NjcsLTI4LjY2NjY3YzAsLTE1Ljc0MTc1IC0xMi45MjQ5MiwtMjguNjY2NjcgLTI4LjY2NjY3LC0yOC42NjY2N3pNODYsNzEuNjY2NjdjNy45NjU1OSwwIDE0LjMzMzMzLDYuMzY3NzUgMTQuMzMzMzMsMTQuMzMzMzNjMCw3Ljk2NTU5IC02LjM2Nzc1LDE0LjMzMzMzIC0xNC4zMzMzMywxNC4zMzMzM2MtNy45NjU1OSwwIC0xNC4zMzMzMywtNi4zNjc3NSAtMTQuMzMzMzMsLTE0LjMzMzMzYzAsLTcuOTY1NTkgNi4zNjc3NSwtMTQuMzMzMzMgMTQuMzMzMzMsLTE0LjMzMzMzek0xMDIuODEwODcsMTIxLjgzMzMzbC05LjY0NDIsMzUuODMzMzNoNy41NDQ1OWwxLjg0NzY2LC03LjE2NjY3aDkuNzk4MTdsMS44NjE2Niw3LjE2NjY3aDcuNjE0NThsLTkuNzAwMiwtMzUuODMzMzN6TTEyOSwxMjEuODMzMzN2MzUuODMzMzNoNy4xNjY2N3YtMTQuMzMzMzNoMy41ODMzM2M1LjkzNCwwIDEwLjc1LC00LjgxNiAxMC43NSwtMTAuNzVjMCwtNS45MzQgLTQuODE2LC0xMC43NSAtMTAuNzUsLTEwLjc1ek0xNTcuNjY2NjcsMTIxLjgzMzMzdjM1LjgzMzMzaDcuMTY2Njd2LTM1LjgzMzMzek0xMzYuMTY2NjcsMTI5aDMuNTgzMzNjMS45NzgsMCAzLjU4MzMzLDEuNjA1MzMgMy41ODMzMywzLjU4MzMzYzAsMS45NzggLTEuNjA1MzMsMy41ODMzMyAtMy41ODMzMywzLjU4MzMzaC0zLjU4MzMzek0xMDcuNDQ0MDEsMTMxLjUzMzUzbDMuMDY1NDMsMTEuNzk5OGgtNi4xMDI4N3oiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg=="
-                  />
-                </div>
-                <a
-                  target="_blank"
-                  href="https://khalteck-advice-generator.netlify.app/"
-                  ><button class="view">View</button></a
-                >
+                <a target="_blank" href="./works/who.pdf"><button class="view">View</button></a>
               </div>
             </div>
           </div>
-          <div
-            class="box box11"
-            data-aos="fade-down-left"
-            data-aos-duration="1000"
-          >
+          <h2>Globe</h2>
+          <p class="info">
+            An analysis of the global imapact of Covid-19 backed by WHO.
+          </p>
+          <img class="label" src="./images/icons8-label-64.png" />
+          <div class="stack-info-hold">
+            <div class="stack-info">
+              <p>PowerBi</p>
+              <img src="https://img.icons8.com/?size=100&id=03aYi0fY0D9X&format=png&color=FB923C" />
+            </div>
+            <div class="stack-info">
+              <p>Microsoft Excel</p>
+              <img src="https://img.icons8.com/?size=100&id=11566&format=png&color=FB923C" />
+            </div>
+            <div class="stack-info">
+              <p>PostgreSQL</p>
+              <img src="https://img.icons8.com/?size=100&id=25010&format=png&color=FB923C" />
+            </div>
+          </div>
+        </div>
+
+        <div class="box-hold">
+          <div class="box box10">
             <div class="box-name">
               <div class="hold">
-                Easybank landing page
+                Airports
                 <div class="stack-strip">
-                  <img src="https://img.icons8.com/office/344/react.png" />
-                  <img src="https://img.icons8.com/color/344/css3.png" />
+                  <img src="https://img.icons8.com/?size=100&id=03aYi0fY0D9X&format=png&color=FB923C" />
+                  <img src="https://img.icons8.com/?size=100&id=11566&format=png&color=FB923C" />
+                  <img src="https://img.icons8.com/?size=100&id=25010&format=png&color=FB923C" />
                 </div>
-                <a target="_blank" href="https://khalteck-easybank.netlify.app/"
-                  ><button class="view">View</button></a
-                >
+                <a target="_blank" href="./works/Project_Work 5.pdf"><button class="view">View</button></a>
               </div>
             </div>
           </div>
-          <div
-            class="box box5"
-            data-aos="fade-down-left"
-            data-aos-duration="1000"
-          >
-            <div class="box-name">
-              <div class="hold">
-                Loopstudios Landing Page
-                <div class="stack-strip">
-                  <img src="https://img.icons8.com/office/344/react.png" />
-                  <img src="https://img.icons8.com/color/344/css3.png" />
-                </div>
-                <a
-                  target="_blank"
-                  href="https://khalteck-loopstudios.netlify.app/"
-                  ><button class="view">View</button></a
-                >
-              </div>
+          <h2>Airports</h2>
+          <p class="info">
+            An analysis on the impact of Covid-19 on airport traffic throught the world.
+          </p>
+          <img class="label" src="./images/icons8-label-64.png" />
+          <div class="stack-info-hold">
+            <div class="stack-info">
+              <p>PowerBi</p>
+              <img src="https://img.icons8.com/?size=100&id=03aYi0fY0D9X&format=png&color=FB923C" />
+            </div>
+            <div class="stack-info">
+              <p>Microsoft Excel</p>
+              <img src="https://img.icons8.com/?size=100&id=11566&format=png&color=FB923C" />
+            </div>
+            <div class="stack-info">
+              <p>PostgreSQL</p>
+              <img src="https://img.icons8.com/?size=100&id=25010&format=png&color=FB923C" />
             </div>
           </div>
-        </div> -->
-      </section>
-    </main>
-    <footer id="footer">
-      <div class="foot-heading">
-        <h1><span class="teal">03.</span> Contact me!</h1>
-      </div>
-      <div class="heading3-mob">
-        <h1><span class="teal">02.</span> Contact</h1>
-        <div class="horizon-line"></div>
-      </div>
-      <p class="get-in">Get in touch<span class="dot">.</span></p>
-      <p class="foot-talk">
-        I am always open to new opportunities, lets build something! From simple
-        landing pages to huge projects, freelance jobs, etc.<br />
-        If you have other requests or questions,<br />
-        please by all means.. <br />slide in!
-      </p>
-      <br /><br /><br />
-      <a href="mailto:khalidoyeneye@gmail.com"><button>Send Message!</button></a
-      ><br /><br /><br /><br /><br />
-      <div id="mob-foot-links">
-        <a href="https://github.com/khalteck" target="_blank"
-          ><img
-            src="https://img.icons8.com/fluency/344/ffffff/github.png"
-            class="social-img"
-        /></a>
-        <a href="https://twitter.com/khalteck" target="_blank"
-          ><img
-            src="https://img.icons8.com/ios/344/ffffff/twitter--v1.png"
-            class="social-img"
-        /></a>
-        <a href="https://instagram.com/khalteck" target="_blank"
-          ><img
-            src="https://img.icons8.com/ios/344/ffffff/instagram-new--v1.png"
-            class="social-img"
-        /></a>
-        <a href="https://www.linkedin.com/in/khalid-oyeneye/" target="_blank"
-          ><img
-            src="https://img.icons8.com/ios/344/ffffff/linkedin.png"
-            class="social-img"
-        /></a>
-        <a href="https://wa.me/+2348107327238" target="_blank"
-          ><img
-            src="https://img.icons8.com/material-outlined/344/ffffff/whatsapp--v1.png"
-            class="social-img"
-        /></a>
-      </div>
-      <br />
-      <p class="copyright">
-        Designed and built by Khalid Oyeneye.<br /><br />
-        © 2022.
-      </p>
-      <!--<a href="index.html">
+        </div>
+    </section>
+  </main>
+  <footer id="footer">
+    <div class="foot-heading">
+      <h1><span class="teal">03.</span> Contact me!</h1>
+    </div>
+    <div class="heading3-mob">
+      <h1><span class="teal">02.</span> Contact</h1>
+      <div class="horizon-line"></div>
+    </div>
+    <p class="get-in">Get in touch<span class="dot">.</span></p>
+    <p class="foot-talk">
+      I am always open to new opportunities, lets build something! From simple
+      projects to huge projects, freelance jobs, etc.<br />
+      If you have other requests or questions,<br />
+      please by all means.. <br />slide in!
+    </p>
+    <br /><br /><br />
+    <a href="mailto:chukwudin64@gmail.com"><button>Send Message!</button></a><br /><br /><br /><br /><br />
+    <div id="mob-foot-links">
+      <a href="https://www.chukwudin64@gmail.com" target="_blank"><img
+        src="https://img.icons8.com/?size=100&id=rUgzXdXFnhmg&format=png&color=000000" class="social-img" /></a>
+      <a href="https://www.linkedin.com/in/nwoye-chukwudi/" target="_blank"><img
+          src="https://img.icons8.com/ios/344/ffffff/linkedin.png" class="social-img" /></a>
+      <a href="https://wa.me/+2348107327238" target="_blank"><img
+          src="https://img.icons8.com/material-outlined/344/ffffff/whatsapp--v1.png" class="social-img" /></a>
+    </div>
+    <br />
+    <p class="copyright">
+      Designed and built by Chromium Tech Studio.<br /><br />
+      © 2024.
+    </p>
+    <!--<a href="index.html">
                 <section id="top">
                     <p>T<br>O<br>P</p>
                     <div></div>
                 </section>
             </a>-->
-    </footer>
+  </footer>
 
-    <script>
-      AOS.init();
-      /* When the user clicks on the button, 
-                    toggle between hiding and showing the dropdown content */
-      function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-      }
+  <script>
+    AOS.init();
+    /* When the user clicks on the button, 
+                  toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
 
-      // Close the dropdown if the user clicks outside of it
-      window.onclick = function (event) {
-        if (!event.target.matches(".dropbtn")) {
-          var dropdowns = document.getElementsByClassName("dropdown-content");
-          var i;
-          for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains("show")) {
-              openDropdown.classList.remove("show");
-            }
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+      if (!event.target.matches(".dropbtn")) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains("show")) {
+            openDropdown.classList.remove("show");
           }
         }
-      };
-
-      // fade In and out
-      const observerOptions = {
-        root: null,
-        rootMargin: "0px",
-        threshold: 0.2,
-      };
-
-      function observerCallback(entries, observer) {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            // fade in observed elements that are in view
-            entry.target.classList.replace("fadeyOut", "fadeyIn");
-          } else {
-            // fade out observed elements that are not in view
-            entry.target.classList.replace("fadeyIn", "fadeyOut");
-          }
-        });
       }
+    };
 
-      const observer = new IntersectionObserver(
-        observerCallback,
-        observerOptions
-      );
+    // fade In and out
+    const observerOptions = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.2,
+    };
 
-      const fadeElms = document.querySelectorAll(".fadey");
-      fadeElms.forEach((el) => observer.observe(el));
-
-      //header animation
-      window.addEventListener("scroll", function spread() {
-        if (
-          document.body.scrollTop > 300 ||
-          document.documentElement.scrollTop > 300
-        ) {
-          document.getElementById("khal").style.opacity = "1";
-          document.getElementById("khal").style.transform = "translateX(0%)";
-          document.getElementById("star").style.transform = "rotate(215deg)";
+    function observerCallback(entries, observer) {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          // fade in observed elements that are in view
+          entry.target.classList.replace("fadeyOut", "fadeyIn");
         } else {
-          document.getElementById("khal").style.opacity = "0";
-          document.getElementById("khal").style.transform = "translateX(-30%)";
-          document.getElementById("star").style.transform = "rotate(0)";
+          // fade out observed elements that are not in view
+          entry.target.classList.replace("fadeyIn", "fadeyOut");
         }
       });
-      window.addEventListener("load", () => {
-        setTimeout(() => {
-          document.getElementById("hello").classList.remove("hide");
-          document.getElementById("hello").classList.add("bounce");
-        }, 300);
-        setTimeout(() => {
-          document.getElementById("i-am1").classList.remove("hide");
-          document.getElementById("i-am1").classList.add("order");
-        }, 1100);
-        setTimeout(() => {
-          document.getElementById("i-am2").classList.remove("hide");
-          document.getElementById("i-am2").classList.add("order");
-        }, 1500);
-        setTimeout(() => {
-          document.getElementById("i-am3").classList.remove("hide");
-          document.getElementById("i-am3").classList.add("order");
-        }, 1900);
-        setTimeout(() => {
-          document.getElementById("i-am4").classList.remove("hide");
-          document.getElementById("i-am4").classList.add("order");
-        }, 2100);
-        setTimeout(() => {
-          document.getElementById("i-am5").classList.remove("hide");
-          document.getElementById("i-am5").classList.add("order");
-        }, 2500);
-        setTimeout(() => {
-          document.getElementById("hello").classList.add("pull-up");
-          document.getElementById("i-am").classList.add("pull-up");
-        }, 3500);
-        setTimeout(() => {
-          document.getElementById("hello").classList.add("hide");
-          document.getElementById("i-am").classList.add("hide");
-        }, 4000);
-        setTimeout(() => {
-          document.getElementById("khalid-pop").classList.remove("hide");
-          document.getElementById("khalid-pop").classList.add("scale-up");
-        }, 4100);
-        setTimeout(() => {
-          document.getElementById("dev-pop").classList.remove("hide");
-          document.getElementById("dev-pop").classList.add("scale-up");
-        }, 4900);
-        setTimeout(() => {
-          document.getElementById("intro-text").classList.remove("hide");
-          document.getElementById("intro-text").classList.add("inline");
-          document.getElementById("intro-text").classList.add("scale-up");
-        }, 5700);
-        setTimeout(() => {
-          document.getElementById("contact-btn").classList.remove("hide");
-          document.getElementById("contact-btn").classList.add("inline");
-          document.getElementById("contact-btn").classList.add("slide-right");
-        }, 6500);
-        setTimeout(() => {
-          document.getElementById("resume-btn").classList.remove("hide");
-          document.getElementById("resume-btn").classList.add("inline");
-          document.getElementById("resume-btn").classList.add("slide-right");
-        }, 7200);
-        setTimeout(() => {
-          document.getElementById("scroll").classList.remove("hide");
-          document.getElementById("scroll").classList.add("scroll");
-        }, 7900);
-      });
+    }
 
-      //to animate the works section
-      let boxHold = document.querySelectorAll(".box-hold");
-      let box = document.querySelectorAll(".box");
-      let hold = document.querySelectorAll(".hold");
+    const observer = new IntersectionObserver(
+      observerCallback,
+      observerOptions
+    );
 
-      boxHold.forEach((item, index) => {
-        let boxName = box[index].firstElementChild;
-        let clicked = false;
-        //let hold = boxName[index].firstElementChild;
-        item.addEventListener("mouseover", () => {
-          if (clicked === false) {
-            boxName.style.display = "flex";
-            boxName.classList.add("spread");
-            hold.forEach((item) => {
-              item.classList.add("rush");
-              item.style.display = "block";
-            });
-            clicked = true;
-          }
-        });
-        item.addEventListener("mouseout", () => {
-          if (clicked === true) {
-            boxName.style.display = "none";
-            clicked = false;
-          }
-        });
+    const fadeElms = document.querySelectorAll(".fadey");
+    fadeElms.forEach((el) => observer.observe(el));
+
+    //header animation
+    window.addEventListener("scroll", function spread() {
+      if (
+        document.body.scrollTop > 300 ||
+        document.documentElement.scrollTop > 300
+      ) {
+        document.getElementById("khal").style.opacity = "1";
+        document.getElementById("khal").style.transform = "translateX(0%)";
+        document.getElementById("star").style.transform = "rotate(215deg)";
+      } else {
+        document.getElementById("khal").style.opacity = "0";
+        document.getElementById("khal").style.transform = "translateX(-30%)";
+        document.getElementById("star").style.transform = "rotate(0)";
+      }
+    });
+    window.addEventListener("load", () => {
+      setTimeout(() => {
+        document.getElementById("hello").classList.remove("hide");
+        document.getElementById("hello").classList.add("bounce");
+      }, 300);
+      setTimeout(() => {
+        document.getElementById("i-am1").classList.remove("hide");
+        document.getElementById("i-am1").classList.add("order");
+      }, 1100);
+      setTimeout(() => {
+        document.getElementById("i-am2").classList.remove("hide");
+        document.getElementById("i-am2").classList.add("order");
+      }, 1500);
+      setTimeout(() => {
+        document.getElementById("i-am3").classList.remove("hide");
+        document.getElementById("i-am3").classList.add("order");
+      }, 1900);
+      setTimeout(() => {
+        document.getElementById("i-am4").classList.remove("hide");
+        document.getElementById("i-am4").classList.add("order");
+      }, 2100);
+      setTimeout(() => {
+        document.getElementById("i-am5").classList.remove("hide");
+        document.getElementById("i-am5").classList.add("order");
+      }, 2500);
+      setTimeout(() => {
+        document.getElementById("hello").classList.add("pull-up");
+        document.getElementById("i-am").classList.add("pull-up");
+      }, 3500);
+      setTimeout(() => {
+        document.getElementById("hello").classList.add("hide");
+        document.getElementById("i-am").classList.add("hide");
+      }, 4000);
+      setTimeout(() => {
+        document.getElementById("khalid-pop").classList.remove("hide");
+        document.getElementById("khalid-pop").classList.add("scale-up");
+      }, 4100);
+      setTimeout(() => {
+        document.getElementById("dev-pop").classList.remove("hide");
+        document.getElementById("dev-pop").classList.add("scale-up");
+      }, 4900);
+      setTimeout(() => {
+        document.getElementById("intro-text").classList.remove("hide");
+        document.getElementById("intro-text").classList.add("inline");
+        document.getElementById("intro-text").classList.add("scale-up");
+      }, 5700);
+      setTimeout(() => {
+        document.getElementById("contact-btn").classList.remove("hide");
+        document.getElementById("contact-btn").classList.add("inline");
+        document.getElementById("contact-btn").classList.add("slide-right");
+      }, 6500);
+      setTimeout(() => {
+        document.getElementById("resume-btn").classList.remove("hide");
+        document.getElementById("resume-btn").classList.add("inline");
+        document.getElementById("resume-btn").classList.add("slide-right");
+      }, 7200);
+      setTimeout(() => {
+        document.getElementById("scroll").classList.remove("hide");
+        document.getElementById("scroll").classList.add("scroll");
+      }, 7900);
+    });
+
+    //to animate the works section
+    let boxHold = document.querySelectorAll(".box-hold");
+    let box = document.querySelectorAll(".box");
+    let hold = document.querySelectorAll(".hold");
+
+    boxHold.forEach((item, index) => {
+      let boxName = box[index].firstElementChild;
+      let clicked = false;
+      //let hold = boxName[index].firstElementChild;
+      item.addEventListener("mouseover", () => {
+        if (clicked === false) {
+          boxName.style.display = "flex";
+          boxName.classList.add("spread");
+          hold.forEach((item) => {
+            item.classList.add("rush");
+            item.style.display = "block";
+          });
+          clicked = true;
+        }
       });
-    </script>
-  </body>
+      item.addEventListener("mouseout", () => {
+        if (clicked === true) {
+          boxName.style.display = "none";
+          clicked = false;
+        }
+      });
+    });
+  </script>
+</body>
+
 </html>
