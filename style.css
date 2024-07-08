@@ -489,7 +489,7 @@ h1 {
   justify-content: space-between;
 }
 .half2 {
-  width: fit-content;
+  min-width: fit-content;
   height: fit-content;
   padding: 20px 10px;
   box-sizing: border-box;
@@ -602,10 +602,10 @@ h1 {
   justify-content: space-between;
 }
 .cont {
-  width: 100%;
+  width: 80%;
   display: grid;
   gap: 30px;
-  grid-template-columns: repeat(3, 0.34fr);
+  grid-template-columns: repeat(2, 0.5fr);
 }
 .cont-mobile {
   width: 100%;
@@ -625,6 +625,7 @@ h1 {
 .box {
   width: 100%;
   height: 60%;
+  margin-bottom: 20px;
   position: relative;
 }
 .box-name {
@@ -741,7 +742,7 @@ h2 {
   width: 100%;
   height: 65%;
   background-color: rgba(251, 146, 60, 1);
-  background: url("./images/todo.jpg");
+  background: url("./images/profit-iq.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -750,7 +751,7 @@ h2 {
   width: 100%;
   height: 65%;
   background-color: rgba(251, 146, 60, 1);
-  background: url("./images/mexico.jpeg");
+  background: url("./images/we-launch-it.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -759,7 +760,7 @@ h2 {
   width: 100%;
   height: 65%;
   background-color: rgba(251, 146, 60, 1);
-  background: url("./images/nyc.jpeg");
+  background: url("./images/racinghamsters.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -768,7 +769,7 @@ h2 {
   width: 100%;
   height: 65%;
   background-color: rgba(251, 146, 60, 1);
-  background: url("./images/cholera.jpeg");
+  background: url("./images/trybe.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -795,7 +796,7 @@ h2 {
   width: 100%;
   height: 65%;
   background-color: rgba(251, 146, 60, 1);
-  background: url("./images/btc.jpeg");
+  background: url("./images/lonacare.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -813,7 +814,7 @@ h2 {
   width: 100%;
   height: 65%;
   background-color: rgba(251, 146, 60, 1);
-  background: url("./images/ncdc.jpeg");
+  background: url("./images/shoply.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -822,7 +823,7 @@ h2 {
   width: 100%;
   height: 65%;
   background-color: rgba(251, 146, 60, 1);
-  background: url("./images/airline.jpeg");
+  background: url("./images/afrogrids.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -841,6 +842,15 @@ h2 {
   height: 65%;
   background-color: rgba(251, 146, 60, 1);
   background: url("./images/meme-gen.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.box13 {
+  width: 100%;
+  height: 65%;
+  background-color: rgba(251, 146, 60, 1);
+  background: url("./images/aashiikii.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -1718,7 +1728,7 @@ footer {
     width: 40px;
     height: auto;
     position: absolute;
-    bottom: 110px;
+    bottom: 130px;
     right: 20px;
   }
   .box {
@@ -1770,28 +1780,28 @@ footer {
   }
   .box1 {
     background-color: rgba(251, 146, 60, 1);
-    background: url("./images/todo.jpg");
+    background: url("./images/profit-iq.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
   }
   .box2 {
     background-color: rgba(251, 146, 60, 1);
-    background: url("./images/mexico.jpeg");
+    background: url("./images/we-launch-it.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
   }
   .box3 {
     background-color: rgba(251, 146, 60, 1);
-    background: url("./images/nyc.jpeg");
+    background: url("./images/racinghamsters.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
   .box4 {
     background-color: rgba(251, 146, 60, 1);
-    background: url("./images/cholera.jpeg");
+    background: url("./images/trybe.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1812,7 +1822,7 @@ footer {
   }
   .box7 {
     background-color: rgba(251, 146, 60, 1);
-    background: url("./images/btc.jpeg");
+    background: url("./images/lonacare.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1826,14 +1836,14 @@ footer {
   }
   .box9 {
     background-color: rgba(251, 146, 60, 1);
-    background: url("./images/ncdc.jpeg");
+    background: url("./images/shoply.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
   .box10 {
     background-color: rgba(251, 146, 60, 1);
-    background: url("./images/airline.jpeg");
+    background: url("./images/afrogrids.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -2506,28 +2516,28 @@ footer {
   }
   .box1 {
     background-color: rgba(251, 146, 60, 1);
-    background: url("./images/todo.jpg");
+    background: url("./images/profit-iq.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
   }
   .box2 {
     background-color: rgba(251, 146, 60, 1);
-    background: url("./images/mexico.jpeg");
+    background: url("./images/we-launch-it.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
   }
   .box3 {
     background-color: rgba(251, 146, 60, 1);
-    background: url("./images/nyc.jpeg");
+    background: url("./images/racinghamsters.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
   .box4 {
     background-color: rgba(251, 146, 60, 1);
-    background: url("./images/cholera.jpeg");
+    background: url("./images/trybe.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -2548,7 +2558,7 @@ footer {
   }
   .box7 {
     background-color: rgba(251, 146, 60, 1);
-    background: url("./images/btc.jpeg");
+    background: url("./images/lonacare.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -2562,14 +2572,14 @@ footer {
   }
   .box9 {
     background-color: rgba(251, 146, 60, 1);
-    background: url("./images/ncdc.jpeg");
+    background: url("./images/shoply.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
   .box10 {
     background-color: rgba(251, 146, 60, 1);
-    background: url("./images/airline.jpeg");
+    background: url("./images/Quote\ Generator.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
